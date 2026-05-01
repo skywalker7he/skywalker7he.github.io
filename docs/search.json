@@ -21,48 +21,6 @@
     "text": "A personal knowledge base for mathematics, causal inference, survival analysis, and distribution-free inference.\nThis website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials."
   },
   {
-    "objectID": "mathematics/single-variable-calculus/index.html",
-    "href": "mathematics/single-variable-calculus/index.html",
-    "title": "Single Variable Calculus",
-    "section": "",
-    "text": "This section contains my notes on limits, continuity, derivatives, integrals, sequences, series, Taylor expansions, and applications of single variable calculus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate of Change\n\n\nNotes from MIT OCW 18.01 Single Variable Calculus on derivatives, slope, velocity, and rate of change.\n\n\n\n\n\nMay 1, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "mathematics/real-analysis/index.html",
-    "href": "mathematics/real-analysis/index.html",
-    "title": "Real Analysis",
-    "section": "",
-    "text": "This section contains my notes on rigorous calculus, including sequences, limits, continuity, compactness, differentiation, integration, and metric spaces."
-  },
-  {
-    "objectID": "mathematics/index.html",
-    "href": "mathematics/index.html",
-    "title": "Mathematics",
-    "section": "",
-    "text": "Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis."
-  },
-  {
-    "objectID": "mathematics/index.html#sections",
-    "href": "mathematics/index.html#sections",
-    "title": "Mathematics",
-    "section": "Sections",
-    "text": "Sections\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "distribution-free-inference/index.html",
-    "href": "distribution-free-inference/index.html",
-    "title": "Distribution-free Inference",
-    "section": "",
-    "text": "This section contains my study notes on distribution-free inference, including nonparametric tests, rank-based methods, permutation tests, resampling methods, and conformal inference.\nAs I add more notes, this page will organize core ideas, assumptions, test statistics, and practical applications."
-  },
-  {
     "objectID": "index.html#main-study-areas",
     "href": "index.html#main-study-areas",
     "title": "SkywalkerHe’s Knowledge Fortress",
@@ -75,6 +33,20 @@
     "title": "SkywalkerHe’s Knowledge Fortress",
     "section": "Mathematics Subareas",
     "text": "Mathematics Subareas\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of limits, sequences, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/index.html",
+    "href": "mathematics/single-variable-calculus/index.html",
+    "title": "Single Variable Calculus",
+    "section": "",
+    "text": "This section contains my notes on limits, continuity, derivatives, integrals, sequences, series, Taylor expansions, and applications of single variable calculus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate of Change\n\n\nNotes from MIT OCW 18.01 Single Variable Calculus on derivatives, slope, velocity, and rate of change.\n\n\n\n\n\nMay 1, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "mathematics/real-analysis/index.html",
+    "href": "mathematics/real-analysis/index.html",
+    "title": "Real Analysis",
+    "section": "",
+    "text": "This section contains my notes on rigorous calculus, including sequences, limits, continuity, compactness, differentiation, integration, and metric spaces."
   },
   {
     "objectID": "mathematics/single-variable-calculus/rate-of-change.html",
@@ -152,5 +124,33 @@
     "title": "Rate of Change",
     "section": "Key takeaway",
     "text": "Key takeaway\nA derivative is the limit of average rates of change. It measures the instantaneous rate of change of a function and gives the slope of the tangent line."
+  },
+  {
+    "objectID": "mathematics/index.html",
+    "href": "mathematics/index.html",
+    "title": "Mathematics",
+    "section": "",
+    "text": "Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis."
+  },
+  {
+    "objectID": "mathematics/index.html#sections",
+    "href": "mathematics/index.html#sections",
+    "title": "Mathematics",
+    "section": "Sections",
+    "text": "Sections\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "distribution-free-inference/index.html",
+    "href": "distribution-free-inference/index.html",
+    "title": "Distribution-free Inference",
+    "section": "",
+    "text": "This section contains my study notes on distribution-free inference, including nonparametric tests, rank-based methods, permutation tests, resampling methods, and conformal inference.\nAs I add more notes, this page will organize core ideas, assumptions, test statistics, and practical applications."
   }
 ]
