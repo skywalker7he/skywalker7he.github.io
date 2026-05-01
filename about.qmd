@@ -10,7 +10,7 @@ title: "About"
 
 Hi, I’m **Jian He**, a full-time biostatistician.
 
-My current study and research interests focus on **Mathematics**, **Causal Inference**, **Survival Analysis**, and **Distribution-free Inference**.
+My current study and research interests focus on **Mathematics**, **Causal Inference**, **Survival Analysis**, and **Machine Learning**.
 
 ## What I Do
 
@@ -19,7 +19,7 @@ I work at the intersection of statistics, biostatistics, and applied biomedical 
 - **Mathematics** — single variable calculus, real analysis, probability, and statistical theory
 - **Causal Inference** — potential outcomes, treatment effects, mediation analysis, and heterogeneous treatment effects
 - **Survival Analysis** — time-to-event outcomes, censoring, Cox models, competing risks, frailty models, and joint models
-- **Distribution-free Inference** — rank-based methods, permutation tests, nonparametric inference, and conformal inference
+- **Machine Learning** — rank-based methods, permutation tests, nonparametric inference, and conformal inference
 - **R Programming** — reproducible statistical analysis, simulation, visualization, and reporting
 
 ## About This Website
@@ -55,9 +55,9 @@ Notes on time-to-event methods, Cox models, competing risks, frailty models, and
 :::
 
 ::: {.content-card}
-### Distribution-free Inference
+### Machine Learning
 
-Notes on nonparametric methods, rank-based inference, permutation tests, resampling, and conformal inference.
+Notes on supervised learning, classification, regression, statistical learning theory, model evaluation, tree-based methods, support vector machines, and neural networks.
 :::
 
 :::

@@ -4,7 +4,7 @@ project:
 
 website:
   title: "SkywalkerHe's Knowledge Fortress"
-  description: "Study notes in Mathematics, Causal Inference, Survival Analysis, and Distribution-free Inference."
+  description: "Study notes in Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
   site-url: "https://skywalker7he.github.io"
   repo-url: "https://github.com/skywalker7he/skywalker7he.github.io"
   repo-actions: [edit, issue]
@@ -34,8 +34,8 @@ website:
       - href: survival-analysis/index.qmd
         text: Survival Analysis
 
-      - href: distribution-free-inference/index.qmd
-        text: Distribution-free Inference
+      - href: machine-learning/index.qmd
+        text: Machine Learning
 
       - href: about.qmd
         text: About

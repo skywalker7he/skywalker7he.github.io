@@ -5,7 +5,7 @@ title: "SkywalkerHe's Knowledge Fortress"
 ::: {.hero-banner}
 # SkywalkerHe's Knowledge Fortress
 
-A personal knowledge base for mathematics, causal inference, survival analysis, and distribution-free inference.
+A personal knowledge base for mathematics, causal inference, survival analysis, and machine learning.
 
 This website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials.
 :::
@@ -39,11 +39,11 @@ Notes on time-to-event methods, censoring, Kaplan-Meier estimation, Cox models, 
 :::
 
 ::: {.content-card}
-### Distribution-free Inference
+### Machine Learning
 
-Notes on nonparametric methods, rank-based inference, permutation tests, resampling methods, and conformal inference.
+Notes on supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, and neural networks.
 
-[Open Distribution-free Inference](distribution-free-inference/index.qmd)
+[Open Machine Learning](machine-learning/index.qmd)
 :::
 
 :::

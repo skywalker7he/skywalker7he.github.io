@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "SkywalkerHe’s Knowledge Fortress",
     "section": "",
-    "text": "A personal knowledge base for mathematics, causal inference, survival analysis, and distribution-free inference.\nThis website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials."
+    "text": "A personal knowledge base for mathematics, causal inference, survival analysis, and machine learning.\nThis website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials."
   },
   {
     "objectID": "index.html#main-study-areas",
     "href": "index.html#main-study-areas",
     "title": "SkywalkerHe’s Knowledge Fortress",
     "section": "Main Study Areas",
-    "text": "Main Study Areas\n\n\nMathematics\nFoundational mathematical notes, currently focused on single variable calculus and real analysis.\nOpen Mathematics\n\n\nCausal Inference\nNotes on causal reasoning, potential outcomes, treatment effects, mediation analysis, and related methods.\nOpen Causal Inference\n\n\nSurvival Analysis\nNotes on time-to-event methods, censoring, Kaplan-Meier estimation, Cox models, competing risks, and related models.\nOpen Survival Analysis\n\n\nDistribution-free Inference\nNotes on nonparametric methods, rank-based inference, permutation tests, resampling methods, and conformal inference.\nOpen Distribution-free Inference"
+    "text": "Main Study Areas\n\n\nMathematics\nFoundational mathematical notes, currently focused on single variable calculus and real analysis.\nOpen Mathematics\n\n\nCausal Inference\nNotes on causal reasoning, potential outcomes, treatment effects, mediation analysis, and related methods.\nOpen Causal Inference\n\n\nSurvival Analysis\nNotes on time-to-event methods, censoring, Kaplan-Meier estimation, Cox models, competing risks, and related models.\nOpen Survival Analysis\n\n\nMachine Learning\nNotes on supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, and neural networks.\nOpen Machine Learning"
   },
   {
     "objectID": "index.html#mathematics-subareas",
@@ -144,21 +144,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Distribution-free Inference."
+    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
   },
   {
     "objectID": "about.html#about-me",
     "href": "about.html#about-me",
     "title": "About",
     "section": "",
-    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Distribution-free Inference."
+    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
   },
   {
     "objectID": "about.html#what-i-do",
     "href": "about.html#what-i-do",
     "title": "About",
     "section": "What I Do",
-    "text": "What I Do\nI work at the intersection of statistics, biostatistics, and applied biomedical research, with a particular interest in:\n\nMathematics — single variable calculus, real analysis, probability, and statistical theory\nCausal Inference — potential outcomes, treatment effects, mediation analysis, and heterogeneous treatment effects\nSurvival Analysis — time-to-event outcomes, censoring, Cox models, competing risks, frailty models, and joint models\nDistribution-free Inference — rank-based methods, permutation tests, nonparametric inference, and conformal inference\nR Programming — reproducible statistical analysis, simulation, visualization, and reporting"
+    "text": "What I Do\nI work at the intersection of statistics, biostatistics, and applied biomedical research, with a particular interest in:\n\nMathematics — single variable calculus, real analysis, probability, and statistical theory\nCausal Inference — potential outcomes, treatment effects, mediation analysis, and heterogeneous treatment effects\nSurvival Analysis — time-to-event outcomes, censoring, Cox models, competing risks, frailty models, and joint models\nMachine Learning — rank-based methods, permutation tests, nonparametric inference, and conformal inference\nR Programming — reproducible statistical analysis, simulation, visualization, and reporting"
   },
   {
     "objectID": "about.html#about-this-website",
@@ -172,7 +172,7 @@
     "href": "about.html#technical-focus",
     "title": "About",
     "section": "Technical Focus",
-    "text": "Technical Focus\nThe main areas of this website are:\n\n\nMathematics\nNotes on single variable calculus, real analysis, probability, and mathematical foundations for statistics.\n\n\nCausal Inference\nNotes on treatment effects, potential outcomes, mediation, propensity score methods, and causal reasoning.\n\n\nSurvival Analysis\nNotes on time-to-event methods, Cox models, competing risks, frailty models, and joint modeling.\n\n\nDistribution-free Inference\nNotes on nonparametric methods, rank-based inference, permutation tests, resampling, and conformal inference."
+    "text": "Technical Focus\nThe main areas of this website are:\n\n\nMathematics\nNotes on single variable calculus, real analysis, probability, and mathematical foundations for statistics.\n\n\nCausal Inference\nNotes on treatment effects, potential outcomes, mediation, propensity score methods, and causal reasoning.\n\n\nSurvival Analysis\nNotes on time-to-event methods, Cox models, competing risks, frailty models, and joint modeling.\n\n\nMachine Learning\nNotes on supervised learning, classification, regression, statistical learning theory, model evaluation, tree-based methods, support vector machines, and neural networks."
   },
   {
     "objectID": "about.html#connect-with-me",
@@ -182,10 +182,10 @@
     "text": "Connect With Me\n\n🎓 Google Scholar: Jian He"
   },
   {
-    "objectID": "distribution-free-inference/index.html",
-    "href": "distribution-free-inference/index.html",
-    "title": "Distribution-free Inference",
+    "objectID": "machine-learning/index.html",
+    "href": "machine-learning/index.html",
+    "title": "Machine Learning",
     "section": "",
-    "text": "This section contains my study notes on distribution-free inference, including nonparametric tests, rank-based methods, permutation tests, resampling methods, and conformal inference.\nAs I add more notes, this page will organize core ideas, assumptions, test statistics, and practical applications."
+    "text": "This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods.\nAs I add more notes, this page will organize concepts, algorithms, mathematical foundations, R implementations, and applied examples."
   }
 ]

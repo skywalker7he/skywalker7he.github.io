@@ -1,7 +1,0 @@
----
-title: "Distribution-free Inference"
----
-
-This section contains my study notes on distribution-free inference, including nonparametric tests, rank-based methods, permutation tests, resampling methods, and conformal inference.
-
-As I add more notes, this page will organize core ideas, assumptions, test statistics, and practical applications.
