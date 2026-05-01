@@ -7,6 +7,20 @@
     "text": "This section contains my study notes on causal inference, including causal reasoning, potential outcomes, treatment effects, propensity scores, mediation analysis, and heterogeneous treatment effects.\nAs I add more notes, this page will organize topics, derivations, examples, and applied statistical interpretations."
   },
   {
+    "objectID": "machine-learning/stats-m254-computational-biology/index.html",
+    "href": "machine-learning/stats-m254-computational-biology/index.html",
+    "title": "STATS M254: Statistical Methods in Computational Biology",
+    "section": "",
+    "text": "This section contains my study notes for STATS M254: Statistical Methods in Computational Biology.\nThe notes focus on statistical and machine learning methods used in computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, multiple testing, and reproducible computational workflows."
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/index.html#notes",
+    "href": "machine-learning/stats-m254-computational-biology/index.html#notes",
+    "title": "STATS M254: Statistical Methods in Computational Biology",
+    "section": "Notes",
+    "text": "Notes\n\nLecture 7"
+  },
+  {
     "objectID": "survival-analysis/index.html",
     "href": "survival-analysis/index.html",
     "title": "Survival Analysis",
@@ -186,6 +200,69 @@
     "href": "machine-learning/index.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods.\nAs I add more notes, this page will organize concepts, algorithms, mathematical foundations, R implementations, and applied examples."
+    "text": "This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods."
+  },
+  {
+    "objectID": "machine-learning/index.html#sections",
+    "href": "machine-learning/index.html#sections",
+    "title": "Machine Learning",
+    "section": "Sections",
+    "text": "Sections\n\n\nSTATS M254: Statistical Methods in Computational Biology\nStudy notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.\nOpen STATS M254 Notes"
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#motivation",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#motivation",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Motivation",
+    "text": "Motivation\nWhy do we care about this topic?"
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#setup",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#setup",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Setup",
+    "text": "Setup\nDefine notation and assumptions."
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#main-result",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#main-result",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Main result",
+    "text": "Main result\nState the theorem, model, method, or idea."
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#intuition",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#intuition",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Intuition",
+    "text": "Intuition\nExplain the idea in plain language."
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#mathematical-details",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#mathematical-details",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nShow derivations carefully."
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#r-implementation",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#r-implementation",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "R implementation",
+    "text": "R implementation\n\n\nCode\n# R code here"
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#common-mistakes",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#common-mistakes",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nMistake 1\nMistake 2\nMistake 3"
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#key-takeaway",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#key-takeaway",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nOne paragraph summary."
   }
 ]

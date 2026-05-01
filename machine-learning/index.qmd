@@ -4,4 +4,16 @@ title: "Machine Learning"
 
 This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods.
 
-As I add more notes, this page will organize concepts, algorithms, mathematical foundations, R implementations, and applied examples.
+## Sections
+
+::: {.content-grid}
+
+::: {.content-card}
+### STATS M254: Statistical Methods in Computational Biology
+
+Study notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.
+
+[Open STATS M254 Notes](stats-m254-computational-biology/index.qmd)
+:::
+
+:::

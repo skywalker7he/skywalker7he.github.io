@@ -1,0 +1,15 @@
+{
+  "hash": "d9ebaf33ba331d9ec08d646c39277c6f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Lecture 7 (DESeq; p-values; supervised learning; K-means)\"\ndescription: \"One-sentence summary of this note.\"\ndate: \"2026-05-01\"\ncategories: [STATS M254, Computational Biology, Machine Learning]\n---\n\n## Lecture video\n\n<div class=\"video-container\">\n<iframe src=\"https://www.youtube.com/embed/FcB5EvPJoRY\"\n        title=\"STATS M254 Lecture Video\"\n        frameborder=\"0\"\n        allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\n        allowfullscreen>\n</iframe>\n</div>\n\n## Motivation\n\nWhy do we care about this topic?\n\n## Setup\n\nDefine notation and assumptions.\n\n## Main result\n\nState the theorem, model, method, or idea.\n\n## Intuition\n\nExplain the idea in plain language.\n\n## Mathematical details\n\nShow derivations carefully.\n\n## R implementation\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# R code here\n```\n:::\n\n\n## Common mistakes\n\n- Mistake 1\n- Mistake 2\n- Mistake 3\n\n## Key takeaway\n\nOne paragraph summary.",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
