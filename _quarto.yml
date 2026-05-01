@@ -11,7 +11,9 @@ website:
   search: true
 
   navbar:
-    background: primary
+    background: dark
+    logo: images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG
+    logo-alt: "SkywalkerHe's Knowledge Fortress logo"
     left:
       - href: index.qmd
         text: Home

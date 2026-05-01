@@ -136,3 +136,41 @@ body.quarto-dark .hero-banner p {
 body.quarto-dark .profile-photo {
   border: 1px solid #495057;
 }
+
+/* Black and gold navbar theme */
+
+.navbar {
+  background-color: #050505;
+  border-bottom: 2px solid #c9a227;
+}
+
+.navbar-brand {
+  color: #f5e6b3;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  color: #ffd86b;
+}
+
+.navbar-nav .nav-link {
+  color: #f7f0dc;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd86b;
+}
+
+.navbar .dropdown-menu {
+  background-color: #111111;
+  border: 1px solid #c9a227;
+}
+
+.navbar .dropdown-item {
+  color: #f7f0dc;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #2a1f0a;
+  color: #ffd86b;
+}

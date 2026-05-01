@@ -65,4 +65,3 @@ Notes on nonparametric methods, rank-based inference, permutation tests, resampl
 ## Connect With Me
 
 - 🎓 **Google Scholar:** [Jian He](https://scholar.google.com/citations?user=E4esx4wAAAAJ&hl=en)
-- 💻 **GitHub:** [@skywalker7he](https://github.com/skywalker7he)
