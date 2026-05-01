@@ -8,6 +8,7 @@ website:
   site-url: "https://skywalker7he.github.io"
   repo-url: "https://github.com/skywalker7he/skywalker7he.github.io"
   repo-actions: [edit, issue]
+  favicon: images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG
   search: true
 
   navbar:
