@@ -2,4 +2,67 @@
 title: "About"
 ---
 
-About this site
+## About Me
+
+::: {.about-profile}
+![](images/D11D0880-A8DF-4557-A6F9-FE4EF84821B0.PNG){.profile-photo}
+:::
+
+Hi, I’m **Jian He**. I am a biostatistician.
+
+My current study and research interests focus on **Mathematics**, **Causal Inference**, **Survival Analysis**, and **Distribution-free Inference**.
+
+## What I Do
+
+I work at the intersection of statistics, biostatistics, and applied biomedical research, with a particular interest in:
+
+- **Mathematics** — single variable calculus, real analysis, probability, and statistical theory
+- **Causal Inference** — potential outcomes, treatment effects, mediation analysis, and heterogeneous treatment effects
+- **Survival Analysis** — time-to-event outcomes, censoring, Cox models, competing risks, frailty models, and joint models
+- **Distribution-free Inference** — rank-based methods, permutation tests, nonparametric inference, and conformal inference
+- **R Programming** — reproducible statistical analysis, simulation, visualization, and reporting
+
+## About This Website
+
+**SkywalkerHe's Knowledge Fortress** is my personal study-notes website.
+
+The purpose of this website is to organize my long-term learning in mathematics and biostatistical methodology. I use it to collect definitions, theorems, derivations, examples, statistical interpretations, and reproducible code.
+
+This website is built with **Quarto** and hosted on **GitHub Pages**.
+
+## Technical Focus
+
+The main areas of this website are:
+
+::: {.content-grid}
+
+::: {.content-card}
+### Mathematics
+
+Notes on single variable calculus, real analysis, probability, and mathematical foundations for statistics.
+:::
+
+::: {.content-card}
+### Causal Inference
+
+Notes on treatment effects, potential outcomes, mediation, propensity score methods, and causal reasoning.
+:::
+
+::: {.content-card}
+### Survival Analysis
+
+Notes on time-to-event methods, Cox models, competing risks, frailty models, and joint modeling.
+:::
+
+::: {.content-card}
+### Distribution-free Inference
+
+Notes on nonparametric methods, rank-based inference, permutation tests, resampling, and conformal inference.
+:::
+
+:::
+
+## Connect With Me
+
+- 🎓 **Google Scholar:** [Jian He](https://scholar.google.com/citations?user=E4esx4wAAAAJ&hl=en)
+- 💻 **GitHub:** [@skywalker7he](https://github.com/skywalker7he)

@@ -144,7 +144,42 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Hi, I’m Jian He. I am a biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Distribution-free Inference."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Hi, I’m Jian He. I am a biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Distribution-free Inference."
+  },
+  {
+    "objectID": "about.html#what-i-do",
+    "href": "about.html#what-i-do",
+    "title": "About",
+    "section": "What I Do",
+    "text": "What I Do\nI work at the intersection of statistics, biostatistics, and applied biomedical research, with a particular interest in:\n\nMathematics — single variable calculus, real analysis, probability, and statistical theory\nCausal Inference — potential outcomes, treatment effects, mediation analysis, and heterogeneous treatment effects\nSurvival Analysis — time-to-event outcomes, censoring, Cox models, competing risks, frailty models, and joint models\nDistribution-free Inference — rank-based methods, permutation tests, nonparametric inference, and conformal inference\nR Programming — reproducible statistical analysis, simulation, visualization, and reporting"
+  },
+  {
+    "objectID": "about.html#about-this-website",
+    "href": "about.html#about-this-website",
+    "title": "About",
+    "section": "About This Website",
+    "text": "About This Website\nSkywalkerHe’s Knowledge Fortress is my personal study-notes website.\nThe purpose of this website is to organize my long-term learning in mathematics and biostatistical methodology. I use it to collect definitions, theorems, derivations, examples, statistical interpretations, and reproducible code.\nThis website is built with Quarto and hosted on GitHub Pages."
+  },
+  {
+    "objectID": "about.html#technical-focus",
+    "href": "about.html#technical-focus",
+    "title": "About",
+    "section": "Technical Focus",
+    "text": "Technical Focus\nThe main areas of this website are:\n\n\nMathematics\nNotes on single variable calculus, real analysis, probability, and mathematical foundations for statistics.\n\n\nCausal Inference\nNotes on treatment effects, potential outcomes, mediation, propensity score methods, and causal reasoning.\n\n\nSurvival Analysis\nNotes on time-to-event methods, Cox models, competing risks, frailty models, and joint modeling.\n\n\nDistribution-free Inference\nNotes on nonparametric methods, rank-based inference, permutation tests, resampling, and conformal inference."
+  },
+  {
+    "objectID": "about.html#connect-with-me",
+    "href": "about.html#connect-with-me",
+    "title": "About",
+    "section": "Connect With Me",
+    "text": "Connect With Me\n\n🎓 Google Scholar: Jian He\n💻 GitHub: @skywalker7he"
   },
   {
     "objectID": "distribution-free-inference/index.html",
