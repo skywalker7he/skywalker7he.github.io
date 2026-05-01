@@ -1,0 +1,7 @@
+---
+title: "Survival Analysis"
+---
+
+This section contains my study notes on survival analysis, including time-to-event outcomes, censoring, Kaplan-Meier estimation, Cox proportional hazards models, competing risks, frailty models, and joint models.
+
+As I add more notes, this page will organize theoretical results, model interpretations, and applied biostatistical examples.

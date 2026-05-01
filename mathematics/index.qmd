@@ -1,0 +1,27 @@
+---
+title: "Mathematics"
+---
+
+Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis.
+
+## Sections
+
+::: {.content-grid}
+
+::: {.content-card}
+### Single Variable Calculus
+
+Limits, continuity, derivatives, integrals, sequences, series, and applications.
+
+[Open Single Variable Calculus](single-variable-calculus/index.qmd)
+:::
+
+::: {.content-card}
+### Real Analysis
+
+Rigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.
+
+[Open Real Analysis](real-analysis/index.qmd)
+:::
+
+:::

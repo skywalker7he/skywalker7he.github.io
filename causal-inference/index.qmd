@@ -1,0 +1,7 @@
+---
+title: "Causal Inference"
+---
+
+This section contains my study notes on causal inference, including causal reasoning, potential outcomes, treatment effects, propensity scores, mediation analysis, and heterogeneous treatment effects.
+
+As I add more notes, this page will organize topics, derivations, examples, and applied statistical interpretations.

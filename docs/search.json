@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "causal-inference/index.html",
+    "href": "causal-inference/index.html",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "This section contains my study notes on causal inference, including causal reasoning, potential outcomes, treatment effects, propensity scores, mediation analysis, and heterogeneous treatment effects.\nAs I add more notes, this page will organize topics, derivations, examples, and applied statistical interpretations."
+  },
+  {
+    "objectID": "survival-analysis/index.html",
+    "href": "survival-analysis/index.html",
+    "title": "Survival Analysis",
+    "section": "",
+    "text": "This section contains my study notes on survival analysis, including time-to-event outcomes, censoring, Kaplan-Meier estimation, Cox proportional hazards models, competing risks, frailty models, and joint models.\nAs I add more notes, this page will organize theoretical results, model interpretations, and applied biostatistical examples."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SkywalkerHe’s Knowledge Fortress",
+    "section": "",
+    "text": "A personal knowledge base for mathematics, causal inference, survival analysis, and distribution-free inference.\nThis website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/index.html",
+    "href": "mathematics/single-variable-calculus/index.html",
+    "title": "Single Variable Calculus",
+    "section": "",
+    "text": "This section contains my notes on limits, continuity, derivatives, integrals, sequences, series, Taylor expansions, and applications of single variable calculus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate of Change\n\n\nNotes from MIT OCW 18.01 Single Variable Calculus on derivatives, slope, velocity, and rate of change.\n\n\n\n\n\nMay 1, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "mathematics/real-analysis/index.html",
+    "href": "mathematics/real-analysis/index.html",
+    "title": "Real Analysis",
+    "section": "",
+    "text": "This section contains my notes on rigorous calculus, including sequences, limits, continuity, compactness, differentiation, integration, and metric spaces."
+  },
+  {
+    "objectID": "mathematics/index.html",
+    "href": "mathematics/index.html",
+    "title": "Mathematics",
+    "section": "",
+    "text": "Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis."
+  },
+  {
+    "objectID": "mathematics/index.html#sections",
+    "href": "mathematics/index.html#sections",
+    "title": "Mathematics",
+    "section": "Sections",
+    "text": "Sections\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "distribution-free-inference/index.html",
+    "href": "distribution-free-inference/index.html",
+    "title": "Distribution-free Inference",
+    "section": "",
+    "text": "This section contains my study notes on distribution-free inference, including nonparametric tests, rank-based methods, permutation tests, resampling methods, and conformal inference.\nAs I add more notes, this page will organize core ideas, assumptions, test statistics, and practical applications."
+  },
+  {
+    "objectID": "index.html#main-study-areas",
+    "href": "index.html#main-study-areas",
+    "title": "SkywalkerHe’s Knowledge Fortress",
+    "section": "Main Study Areas",
+    "text": "Main Study Areas\n\n\nMathematics\nFoundational mathematical notes, currently focused on single variable calculus and real analysis.\nOpen Mathematics\n\n\nCausal Inference\nNotes on causal reasoning, potential outcomes, treatment effects, mediation analysis, and related methods.\nOpen Causal Inference\n\n\nSurvival Analysis\nNotes on time-to-event methods, censoring, Kaplan-Meier estimation, Cox models, competing risks, and related models.\nOpen Survival Analysis\n\n\nDistribution-free Inference\nNotes on nonparametric methods, rank-based inference, permutation tests, resampling methods, and conformal inference.\nOpen Distribution-free Inference"
+  },
+  {
+    "objectID": "index.html#mathematics-subareas",
+    "href": "index.html#mathematics-subareas",
+    "title": "SkywalkerHe’s Knowledge Fortress",
+    "section": "Mathematics Subareas",
+    "text": "Mathematics Subareas\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of limits, sequences, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html",
+    "title": "Rate of Change",
+    "section": "",
+    "text": "These are my personal study notes based on MIT OpenCourseWare 18.01 Single Variable Calculus.\nCourse page: MIT OCW 18.01 Single Variable Calculus, Fall 2006."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#source",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#source",
+    "title": "Rate of Change",
+    "section": "",
+    "text": "These are my personal study notes based on MIT OpenCourseWare 18.01 Single Variable Calculus.\nCourse page: MIT OCW 18.01 Single Variable Calculus, Fall 2006."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#topics",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#topics",
+    "title": "Rate of Change",
+    "section": "Topics",
+    "text": "Topics\n\nDerivatives\nSlope\nVelocity\nRate of change"
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#goal",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#goal",
+    "title": "Rate of Change",
+    "section": "Goal",
+    "text": "Goal\nThe goal of this lecture is to understand the derivative as a mathematical tool for measuring instantaneous rate of change."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#big-picture",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#big-picture",
+    "title": "Rate of Change",
+    "section": "Big picture",
+    "text": "Big picture\nIn calculus, we often start with a quantity that changes with respect to another variable.\nFor example:\n\nposition changes with respect to time;\ncost changes with respect to production quantity;\ntumor volume changes with respect to days;\nsurvival probability changes with respect to time.\n\nThe derivative gives us a way to measure how fast one quantity changes relative to another quantity."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#average-rate-of-change",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#average-rate-of-change",
+    "title": "Rate of Change",
+    "section": "Average rate of change",
+    "text": "Average rate of change\nSuppose \\(y = f(x)\\). The average rate of change of \\(f\\) from \\(x = a\\) to \\(x = b\\) is\n\\[\n\\frac{f(b) - f(a)}{b - a}.\n\\]\nGeometrically, this is the slope of the secant line connecting the two points\n\\[\n(a, f(a))\n\\quad \\text{and} \\quad\n(b, f(b)).\n\\]\nThe average rate of change measures how much the function changes over an interval."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#instantaneous-rate-of-change",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#instantaneous-rate-of-change",
+    "title": "Rate of Change",
+    "section": "Instantaneous rate of change",
+    "text": "Instantaneous rate of change\nTo define the instantaneous rate of change at \\(x = a\\), we let \\(b\\) move closer and closer to \\(a\\).\nEquivalently, write\n\\[\nb = a + h.\n\\]\nThen the average rate of change becomes\n\\[\n\\frac{f(a+h) - f(a)}{h}.\n\\]\nThe derivative is defined as the limit\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n\\frac{f(a+h) - f(a)}{h},\n\\]\nprovided this limit exists."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#interpretation",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#interpretation",
+    "title": "Rate of Change",
+    "section": "Interpretation",
+    "text": "Interpretation\nThe derivative \\(f'(a)\\) measures the instantaneous rate of change of \\(f(x)\\) at \\(x = a\\).\nIt can be interpreted as:\n\nthe slope of the tangent line at \\(x = a\\);\nthe instantaneous velocity if \\(f(x)\\) represents position and \\(x\\) represents time;\nthe local linear rate at which \\(f(x)\\) changes near \\(x = a\\)."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#example",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#example",
+    "title": "Rate of Change",
+    "section": "Example",
+    "text": "Example\nLet\n\\[\nf(x) = x^2.\n\\]\nThen\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n\\frac{(a+h)^2 - a^2}{h}.\n\\]\nExpand the numerator:\n\\[\n(a+h)^2 - a^2\n=\na^2 + 2ah + h^2 - a^2\n=\n2ah + h^2.\n\\]\nTherefore,\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n\\frac{2ah + h^2}{h}.\n\\]\nSince\n\\[\n\\frac{2ah + h^2}{h}\n=\n2a + h,\n\\]\nwe have\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n(2a + h)\n=\n2a.\n\\]\nSo if \\(f(x) = x^2\\), then\n\\[\nf'(x) = 2x.\n\\]"
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#statistical-connection",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#statistical-connection",
+    "title": "Rate of Change",
+    "section": "Statistical connection",
+    "text": "Statistical connection\nThis idea appears often in statistics.\nFor example, if \\(\\ell(\\theta)\\) is a log-likelihood function, then the derivative\n\\[\n\\frac{d}{d\\theta}\\ell(\\theta)\n\\]\nmeasures how fast the log-likelihood changes as the parameter \\(\\theta\\) changes.\nThe maximum likelihood estimator often satisfies the score equation\n\\[\n\\frac{d}{d\\theta}\\ell(\\theta) = 0.\n\\]\nSo understanding derivatives is foundational for likelihood theory, optimization, regression, and asymptotic statistics."
+  },
+  {
+    "objectID": "mathematics/single-variable-calculus/rate-of-change.html#key-takeaway",
+    "href": "mathematics/single-variable-calculus/rate-of-change.html#key-takeaway",
+    "title": "Rate of Change",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nA derivative is the limit of average rates of change. It measures the instantaneous rate of change of a function and gives the slope of the tangent line."
+  }
+]

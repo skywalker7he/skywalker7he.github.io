@@ -1,0 +1,176 @@
+---
+title: "Rate of Change"
+description: "Notes from MIT OCW 18.01 Single Variable Calculus on derivatives, slope, velocity, and rate of change."
+date: "2026-05-01"
+categories: [Single Variable Calculus, Derivatives, MIT OCW 18.01]
+---
+
+## Source
+
+These are my personal study notes based on MIT OpenCourseWare 18.01 Single Variable Calculus.
+
+Course page: MIT OCW 18.01 Single Variable Calculus, Fall 2006.
+
+## Topics
+
+- Derivatives
+- Slope
+- Velocity
+- Rate of change
+
+## Goal
+
+The goal of this lecture is to understand the derivative as a mathematical tool for measuring instantaneous rate of change.
+
+## Big picture
+
+In calculus, we often start with a quantity that changes with respect to another variable.
+
+For example:
+
+- position changes with respect to time;
+- cost changes with respect to production quantity;
+- tumor volume changes with respect to days;
+- survival probability changes with respect to time.
+
+The derivative gives us a way to measure how fast one quantity changes relative to another quantity.
+
+## Average rate of change
+
+Suppose $y = f(x)$. The average rate of change of $f$ from $x = a$ to $x = b$ is
+
+$$
+\frac{f(b) - f(a)}{b - a}.
+$$
+
+Geometrically, this is the slope of the secant line connecting the two points
+
+$$
+(a, f(a))
+\quad \text{and} \quad
+(b, f(b)).
+$$
+
+The average rate of change measures how much the function changes over an interval.
+
+## Instantaneous rate of change
+
+To define the instantaneous rate of change at $x = a$, we let $b$ move closer and closer to $a$.
+
+Equivalently, write
+
+$$
+b = a + h.
+$$
+
+Then the average rate of change becomes
+
+$$
+\frac{f(a+h) - f(a)}{h}.
+$$
+
+The derivative is defined as the limit
+
+$$
+f'(a)
+=
+\lim_{h \to 0}
+\frac{f(a+h) - f(a)}{h},
+$$
+
+provided this limit exists.
+
+## Interpretation
+
+The derivative $f'(a)$ measures the instantaneous rate of change of $f(x)$ at $x = a$.
+
+It can be interpreted as:
+
+- the slope of the tangent line at $x = a$;
+- the instantaneous velocity if $f(x)$ represents position and $x$ represents time;
+- the local linear rate at which $f(x)$ changes near $x = a$.
+
+## Example
+
+Let
+
+$$
+f(x) = x^2.
+$$
+
+Then
+
+$$
+f'(a)
+=
+\lim_{h \to 0}
+\frac{(a+h)^2 - a^2}{h}.
+$$
+
+Expand the numerator:
+
+$$
+(a+h)^2 - a^2
+=
+a^2 + 2ah + h^2 - a^2
+=
+2ah + h^2.
+$$
+
+Therefore,
+
+$$
+f'(a)
+=
+\lim_{h \to 0}
+\frac{2ah + h^2}{h}.
+$$
+
+Since
+
+$$
+\frac{2ah + h^2}{h}
+=
+2a + h,
+$$
+
+we have
+
+$$
+f'(a)
+=
+\lim_{h \to 0}
+(2a + h)
+=
+2a.
+$$
+
+So if $f(x) = x^2$, then
+
+$$
+f'(x) = 2x.
+$$
+
+## Statistical connection
+
+This idea appears often in statistics.
+
+For example, if $\ell(\theta)$ is a log-likelihood function, then the derivative
+
+$$
+\frac{d}{d\theta}\ell(\theta)
+$$
+
+measures how fast the log-likelihood changes as the parameter $\theta$ changes.
+
+The maximum likelihood estimator often satisfies the score equation
+
+$$
+\frac{d}{d\theta}\ell(\theta) = 0.
+$$
+
+So understanding derivatives is foundational for likelihood theory, optimization, regression, and asymptotic statistics.
+
+## Key takeaway
+
+A derivative is the limit of average rates of change. It measures the instantaneous rate of change of a function and gives the slope of the tangent line.

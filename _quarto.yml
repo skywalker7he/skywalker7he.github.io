@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "SkywalkerHe's Knowledge Fortress"
+  description: "Study notes in Mathematics, Causal Inference, Survival Analysis, and Distribution-free Inference."
+  site-url: "https://skywalker7he.github.io"
+  repo-url: "https://github.com/skywalker7he/skywalker7he.github.io"
+  repo-actions: [edit, issue]
+  search: true
+
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+
+      - text: Mathematics
+        menu:
+          - href: mathematics/index.qmd
+            text: Overview
+          - href: mathematics/single-variable-calculus/index.qmd
+            text: Single Variable Calculus
+          - href: mathematics/real-analysis/index.qmd
+            text: Real Analysis
+
+      - href: causal-inference/index.qmd
+        text: Causal Inference
+
+      - href: survival-analysis/index.qmd
+        text: Survival Analysis
+
+      - href: distribution-free-inference/index.qmd
+        text: Distribution-free Inference
+
+      - href: about.qmd
+        text: About
+
+    right:
+      - icon: github
+        href: https://github.com/skywalker7he
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto
+
+
+

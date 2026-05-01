@@ -1,0 +1,71 @@
+---
+title: "SkywalkerHe's Knowledge Fortress"
+---
+
+::: {.hero-banner}
+# SkywalkerHe's Knowledge Fortress
+
+A personal knowledge base for mathematics, causal inference, survival analysis, and distribution-free inference.
+
+This website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials.
+:::
+
+## Main Study Areas
+
+::: {.content-grid}
+
+::: {.content-card}
+### Mathematics
+
+Foundational mathematical notes, currently focused on single variable calculus and real analysis.
+
+[Open Mathematics](mathematics/index.qmd)
+:::
+
+::: {.content-card}
+### Causal Inference
+
+Notes on causal reasoning, potential outcomes, treatment effects, mediation analysis, and related methods.
+
+[Open Causal Inference](causal-inference/index.qmd)
+:::
+
+::: {.content-card}
+### Survival Analysis
+
+Notes on time-to-event methods, censoring, Kaplan-Meier estimation, Cox models, competing risks, and related models.
+
+[Open Survival Analysis](survival-analysis/index.qmd)
+:::
+
+::: {.content-card}
+### Distribution-free Inference
+
+Notes on nonparametric methods, rank-based inference, permutation tests, resampling methods, and conformal inference.
+
+[Open Distribution-free Inference](distribution-free-inference/index.qmd)
+:::
+
+:::
+
+## Mathematics Subareas
+
+::: {.content-grid}
+
+::: {.content-card}
+### Single Variable Calculus
+
+Limits, continuity, derivatives, integrals, sequences, series, and applications.
+
+[Open Single Variable Calculus](mathematics/single-variable-calculus/index.qmd)
+:::
+
+::: {.content-card}
+### Real Analysis
+
+Rigorous treatment of limits, sequences, continuity, compactness, differentiation, integration, and metric spaces.
+
+[Open Real Analysis](mathematics/real-analysis/index.qmd)
+:::
+
+:::
