@@ -177,7 +177,7 @@ body.quarto-dark .profile-photo {
 
 /* Navbar logo size */
 .navbar-logo {
-  max-height: 34px;
+  max-height: 30px;
   width: auto;
   border-radius: 4px;
 }
