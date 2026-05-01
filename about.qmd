@@ -8,7 +8,7 @@ title: "About"
 ![](images/D11D0880-A8DF-4557-A6F9-FE4EF84821B0.PNG){.profile-photo}
 :::
 
-Hi, I’m **Jian He**. I am a biostatistician.
+Hi, I’m **Jian He**, a full-time biostatistician.
 
 My current study and research interests focus on **Mathematics**, **Causal Inference**, **Survival Analysis**, and **Distribution-free Inference**.
 
