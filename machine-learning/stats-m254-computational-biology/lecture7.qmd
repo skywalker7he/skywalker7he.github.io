@@ -1,6 +1,6 @@
 ---
 title: "Lecture 7 (DESeq; p-values; supervised learning; K-means)"
-description: "One-sentence summary of this note."
+#description: "One-sentence summary of this note."
 date: "2026-05-01"
 categories: [STATS M254, Computational Biology, Machine Learning]
 ---
@@ -16,38 +16,69 @@ categories: [STATS M254, Computational Biology, Machine Learning]
 </iframe>
 </div>
 
-## Motivation
+## Unsupervised Learning
+Only feature vectors are available.
 
-Why do we care about this topic?
+There are two main types of unsupervised learning problems.
 
-## Setup
+1. Clustering
+2. Dimension Reduction
 
-Define notation and assumptions.
+## Clustering
+### Notation
+Data: $\mathbf{x}_1, \ldots, \mathbf{x}_n$, $i = 1,\ldots,n$, where $\mathbf{x}_i$ is a $p \times 1$ column vector. 
 
-## Main result
+Let $c_i$ denote the membership of $\mathbf{x}_i$ belonging to one of the K clusters.
 
-State the theorem, model, method, or idea.
+### Euclidean Distance 
+- $\|\mathbf{x}_i - \mathbf{x}_{i^{\prime}}\|_F = d(\mathbf{x}_i, \mathbf{x}_{i^{\prime}}) = \sqrt{\sum_{j=1}^p \left(x_{ij} - x_{i^{\prime}j}\right)^2}$
+- Also known as $l_2$-norm
 
-## Intuition
+### K-means Clustering
+- K-means clustering is applicable to Euclidean distance. 
+- The goal is to find $K$ centers, denoted by $\mathbf{m}_1, \ldots, \mathbf{m}_K \in \mathbb{R}^p$, that minimizes 
+$$\sum_{k=1}^K \sum_{i: c_i = k} \|\mathbf{x}_i - \mathbf{m}_k\|_F^2 = \sum_{k=1}^K \sum_{i: c_i = k}\sum_{j=1}^p (x_{ij} - m_{kj})^2 = f\left(\{c_i\}_{i=1}^n, \{\mathbf{m}_k\}_{k=1}^K\right). \tag{1}$$
+- K-means clustering is guaranteed to converge to a local minimum of the objective function (1).
 
-Explain the idea in plain language.
+- K-means clustering does not work when Euclidean distance is not a good measure of dissimilarity, e.g., Swiss roll problem.
 
-## Mathematical details
+- For the Swiss roll problem, a solution is to use spectral clustering.
 
-Show derivations carefully.
+- K-means clustering also does not work well when there are outliers.
 
-## R implementation
+- To check for outliers, we desire to plot data first by dimension reduction. 
 
-```{r}
-# R code here
-```
 
-## Common mistakes
+### An Iterative Algorithm
+Data points are assigned randomly to one of the K clusters: $c_1^{(0)}, \ldots, c_n^{(0)}$. 
 
-- Mistake 1
-- Mistake 2
-- Mistake 3
+Then, at the $r$th interaction, $r = 1, 2, \ldots$,
 
-## Key takeaway
+- we update cluster centers by solving the following minimization problem
+$$\mathbf{m}_k^{(r)} = \underset{\mathbf{m}_k \in \mathbb{R}^p}{\arg\min} \sum_{i: c_i^{(r-1)} = k} \sum_{j=1}^p (x_{ij} - m_{kj})^2 \implies m_{kj}^{(r)} = \frac{1}{n_k^{(r-1)}}\sum_{i: c_i^{(r-1)} = k}x_{ij}$$ 
+(hint: differentiate with respect to $m_{kj}$'s for $j = 1, \ldots, p$.)
 
-One paragraph summary.
+- we then update cluster assignment by solving the following minimization problem
+$$c_i^{(r)} = \underset{k=1,\ldots, K}{\arg\min} \left\|\mathbf{x}_i - \mathbf{m}_k^{(r)}\right\|_F^2$$
+(hint: write (1) in an equivalent form by taking the summation of data points of i from 1 to n.)
+
+We stop when $c_i^{(r)} = c_i^{(r-1)}$ for all i.
+
+### The Local Minimum Problem
+The iterative algorithm implemented in the K-means clustering works towards minimizing the objective function (1) at each step, and thus almost always leads to a local minimum. 
+
+To address this local minimum problem, we can do random initialization multiple times. 
+
+### Kernel Trick
+Intuitively speaking, lower-dimensional data are projected to a higher-dimensional space so that they can be more easily separated?
+
+### K-medians
+- $l_2$-norm is changed to $l_1$-norm given by
+$$\|\mathbf{x}_i - \mathbf{x}_{i^{\prime}}\|_1 = \sum_{i=1}^p |x_{ij} - x_{i^{\prime}j}|.$$
+- It can be shown that the solution to $$
+\underset{\mathbf{m}_k \in \mathbb{R}^p}{\arg\min}
+\sum_{i: c_i = k}
+\left\| \mathbf{x}_i - \mathbf{m}_k \right\|_1 = \underset{\mathbf{m}_k \in \mathbb{R}^p}{\arg\min}
+\sum_{i: c_i = k} \sum_{i=1}^p |x_{ij} - m_{kj}|
+$$
+is $m_{kj} = \mathrm{median}(x_{ij})_{i: c_i = k}.$
