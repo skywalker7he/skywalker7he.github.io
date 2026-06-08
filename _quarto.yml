@@ -46,10 +46,6 @@ website:
       - href: about.qmd
         text: About
 
-    right:
-      - icon: github
-        href: https://github.com/skywalker7he
-
 format:
   html:
     theme:
