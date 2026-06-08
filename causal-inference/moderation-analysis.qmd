@@ -1,0 +1,19 @@
+---
+title: "Moderation Analysis"
+description: "Study notes on moderation analysis, effect modification, and why moderation should not be reduced to product-term interactions."
+date: "2026-06-08"
+categories: [Causal Inference, Moderation Analysis, Effect Modification]
+suppress-bibliography: true
+---
+
+## Reference
+
+Tang W, Yu Q, Crits-Christoph P, Tu XM. [A new analytic framework for moderation analysis: moving beyond analytic interactions](../references/pdfs/tang-2009-moderation.pdf). *Journal of Data Science*. 2009;7:313-329.
+
+## Motivation
+
+Moderation analysis asks whether the relationship between a predictor or exposure and an outcome differs across levels of another variable.
+
+In ordinary regression language, the third variable is called a **moderator**. In causal inference language, the closely related idea is often called **effect modification**, **causal interaction**, or **treatment effect heterogeneity**.
+
+Tang et al. argue that moderation analysis should not be reduced mechanically to testing product-term interactions such as $X \times Z$.

@@ -4,63 +4,98 @@
     "href": "causal-inference/index.html",
     "title": "Causal Inference",
     "section": "",
-    "text": "This section contains my study notes on causal inference, including causal reasoning, potential outcomes, treatment effects, propensity scores, mediation analysis, and heterogeneous treatment effects.\nAs I add more notes, this page will organize topics, derivations, examples, and applied statistical interpretations."
+    "text": "This section contains my study notes on causal inference, including causal reasoning, potential outcomes, treatment effects, propensity scores, mediation analysis, moderation analysis, and heterogeneous treatment effects."
   },
   {
-    "objectID": "machine-learning/stats-m254-computational-biology/index.html",
-    "href": "machine-learning/stats-m254-computational-biology/index.html",
-    "title": "STATS M254: Statistical Methods in Computational Biology",
-    "section": "",
-    "text": "This section contains my study notes for STATS M254: Statistical Methods in Computational Biology.\nThe notes focus on statistical and machine learning methods used in computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, multiple testing, and reproducible computational workflows."
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/index.html#notes",
-    "href": "machine-learning/stats-m254-computational-biology/index.html#notes",
-    "title": "STATS M254: Statistical Methods in Computational Biology",
+    "objectID": "causal-inference/index.html#notes",
+    "href": "causal-inference/index.html#notes",
+    "title": "Causal Inference",
     "section": "Notes",
-    "text": "Notes\n\nLecture 7"
+    "text": "Notes\n\nModeration Analysis"
   },
   {
-    "objectID": "survival-analysis/index.html",
-    "href": "survival-analysis/index.html",
-    "title": "Survival Analysis",
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#unsupervised-learning",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#unsupervised-learning",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Unsupervised Learning",
+    "text": "Unsupervised Learning\nOnly feature vectors are available.\nThere are two main types of unsupervised learning problems.\n\nClustering\nDimension Reduction"
+  },
+  {
+    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#clustering",
+    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#clustering",
+    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "section": "Clustering",
+    "text": "Clustering\n\nNotation\nData: \\(\\mathbf{x}_1, \\ldots, \\mathbf{x}_n\\), \\(i = 1,\\ldots,n\\), where \\(\\mathbf{x}_i\\) is a \\(p \\times 1\\) column vector.\nLet \\(c_i\\) denote the membership of \\(\\mathbf{x}_i\\) belonging to one of the K clusters.\n\n\nEuclidean Distance\n\n\\(\\|\\mathbf{x}_i - \\mathbf{x}_{i^{\\prime}}\\|_F = d(\\mathbf{x}_i, \\mathbf{x}_{i^{\\prime}}) = \\sqrt{\\sum_{j=1}^p \\left(x_{ij} - x_{i^{\\prime}j}\\right)^2}\\)\nAlso known as \\(l_2\\)-norm\n\n\n\nK-means Clustering\n\nK-means clustering is applicable to Euclidean distance.\nThe goal is to find \\(K\\) centers, denoted by \\(\\mathbf{m}_1, \\ldots, \\mathbf{m}_K \\in \\mathbb{R}^p\\), that minimizes \\[\\sum_{k=1}^K \\sum_{i: c_i = k} \\|\\mathbf{x}_i - \\mathbf{m}_k\\|_F^2 = \\sum_{k=1}^K \\sum_{i: c_i = k}\\sum_{j=1}^p (x_{ij} - m_{kj})^2 = f\\left(\\{c_i\\}_{i=1}^n, \\{\\mathbf{m}_k\\}_{k=1}^K\\right). \\tag{1}\\]\nK-means clustering is guaranteed to converge to a local minimum of the objective function (1).\nK-means clustering does not work when Euclidean distance is not a good measure of dissimilarity, e.g., Swiss roll problem.\nFor the Swiss roll problem, a solution is to use spectral clustering.\nK-means clustering also does not work well when there are outliers.\nTo check for outliers, we desire to plot data first by dimension reduction.\n\n\n\nAn Iterative Algorithm\nData points are assigned randomly to one of the K clusters: \\(c_1^{(0)}, \\ldots, c_n^{(0)}\\).\nThen, at the \\(r\\)th interaction, \\(r = 1, 2, \\ldots\\),\n\nwe update cluster centers by solving the following minimization problem \\[\\mathbf{m}_k^{(r)} = \\underset{\\mathbf{m}_k \\in \\mathbb{R}^p}{\\arg\\min} \\sum_{i: c_i^{(r-1)} = k} \\sum_{j=1}^p (x_{ij} - m_{kj})^2 \\implies m_{kj}^{(r)} = \\frac{1}{n_k^{(r-1)}}\\sum_{i: c_i^{(r-1)} = k}x_{ij}\\] (hint: differentiate with respect to \\(m_{kj}\\)’s for \\(j = 1, \\ldots, p\\).)\nwe then update cluster assignment by solving the following minimization problem \\[c_i^{(r)} = \\underset{k=1,\\ldots, K}{\\arg\\min} \\left\\|\\mathbf{x}_i - \\mathbf{m}_k^{(r)}\\right\\|_F^2\\] (hint: write (1) in an equivalent form by taking the summation of data points of i from 1 to n.)\n\nWe stop when \\(c_i^{(r)} = c_i^{(r-1)}\\) for all i.\n\n\nThe Local Minimum Problem\nThe iterative algorithm implemented in the K-means clustering works towards minimizing the objective function (1) at each step, and thus almost always leads to a local minimum.\nTo address this local minimum problem, we can do random initialization multiple times.\n\n\nKernel Trick\nIntuitively speaking, lower-dimensional data are projected to a higher-dimensional space so that they can be more easily separated?\n\n\nK-medians\n\n\\(l_2\\)-norm is changed to \\(l_1\\)-norm given by \\[\\|\\mathbf{x}_i - \\mathbf{x}_{i^{\\prime}}\\|_1 = \\sum_{i=1}^p |x_{ij} - x_{i^{\\prime}j}|.\\]\nIt can be shown that the solution to \\[\n\\underset{\\mathbf{m}_k \\in \\mathbb{R}^p}{\\arg\\min}\n\\sum_{i: c_i = k}\n\\left\\| \\mathbf{x}_i - \\mathbf{m}_k \\right\\|_1 = \\underset{\\mathbf{m}_k \\in \\mathbb{R}^p}{\\arg\\min}\n\\sum_{i: c_i = k} \\sum_{i=1}^p |x_{ij} - m_{kj}|\n\\] is \\(m_{kj} = \\mathrm{median}(x_{ij})_{i: c_i = k}.\\)"
+  },
+  {
+    "objectID": "machine-learning/index.html",
+    "href": "machine-learning/index.html",
+    "title": "Machine Learning",
     "section": "",
-    "text": "This section contains my study notes on survival analysis, including time-to-event outcomes, censoring, Kaplan-Meier estimation, Cox proportional hazards models, competing risks, frailty models, and joint models.\nAs I add more notes, this page will organize theoretical results, model interpretations, and applied biostatistical examples."
+    "text": "This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SkywalkerHe’s Knowledge Fortress",
+    "objectID": "machine-learning/index.html#sections",
+    "href": "machine-learning/index.html#sections",
+    "title": "Machine Learning",
+    "section": "Sections",
+    "text": "Sections\n\n\nSTATS M254: Statistical Methods in Computational Biology\nStudy notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.\nOpen STATS M254 Notes"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "A personal knowledge base for mathematics, causal inference, survival analysis, and machine learning.\nThis website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials."
+    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
   },
   {
-    "objectID": "index.html#main-study-areas",
-    "href": "index.html#main-study-areas",
-    "title": "SkywalkerHe’s Knowledge Fortress",
-    "section": "Main Study Areas",
-    "text": "Main Study Areas\n\n\nMathematics\nFoundational mathematical notes, currently focused on single variable calculus and real analysis.\nOpen Mathematics\n\n\nCausal Inference\nNotes on causal reasoning, potential outcomes, treatment effects, mediation analysis, and related methods.\nOpen Causal Inference\n\n\nSurvival Analysis\nNotes on time-to-event methods, censoring, Kaplan-Meier estimation, Cox models, competing risks, and related models.\nOpen Survival Analysis\n\n\nMachine Learning\nNotes on supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, and neural networks.\nOpen Machine Learning"
-  },
-  {
-    "objectID": "index.html#mathematics-subareas",
-    "href": "index.html#mathematics-subareas",
-    "title": "SkywalkerHe’s Knowledge Fortress",
-    "section": "Mathematics Subareas",
-    "text": "Mathematics Subareas\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of limits, sequences, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
-  },
-  {
-    "objectID": "mathematics/single-variable-calculus/index.html",
-    "href": "mathematics/single-variable-calculus/index.html",
-    "title": "Single Variable Calculus",
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
     "section": "",
-    "text": "This section contains my notes on limits, continuity, derivatives, integrals, sequences, series, Taylor expansions, and applications of single variable calculus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate of Change\n\n\nNotes from MIT OCW 18.01 Single Variable Calculus on derivatives, slope, velocity, and rate of change.\n\n\n\n\n\nMay 1, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
   },
   {
-    "objectID": "mathematics/real-analysis/index.html",
-    "href": "mathematics/real-analysis/index.html",
-    "title": "Real Analysis",
+    "objectID": "about.html#what-i-do",
+    "href": "about.html#what-i-do",
+    "title": "About",
+    "section": "What I Do",
+    "text": "What I Do\nI work at the intersection of statistics, biostatistics, and applied biomedical research, with a particular interest in:\n\nMathematics — single variable calculus, real analysis, probability, and statistical theory\nCausal Inference — potential outcomes, treatment effects, mediation analysis, and heterogeneous treatment effects\nSurvival Analysis — time-to-event outcomes, censoring, Cox models, competing risks, frailty models, and joint models\nMachine Learning — rank-based methods, permutation tests, nonparametric inference, and conformal inference\nR Programming — reproducible statistical analysis, simulation, visualization, and reporting"
+  },
+  {
+    "objectID": "about.html#about-this-website",
+    "href": "about.html#about-this-website",
+    "title": "About",
+    "section": "About This Website",
+    "text": "About This Website\nSkywalkerHe’s Knowledge Fortress is my personal study-notes website.\nThe purpose of this website is to organize my long-term learning in mathematics and biostatistical methodology. I use it to collect definitions, theorems, derivations, examples, statistical interpretations, and reproducible code.\nThis website is built with Quarto and hosted on GitHub Pages."
+  },
+  {
+    "objectID": "about.html#technical-focus",
+    "href": "about.html#technical-focus",
+    "title": "About",
+    "section": "Technical Focus",
+    "text": "Technical Focus\nThe main areas of this website are:\n\n\nMathematics\nNotes on single variable calculus, real analysis, probability, and mathematical foundations for statistics.\n\n\nCausal Inference\nNotes on treatment effects, potential outcomes, mediation, propensity score methods, and causal reasoning.\n\n\nSurvival Analysis\nNotes on time-to-event methods, Cox models, competing risks, frailty models, and joint modeling.\n\n\nMachine Learning\nNotes on supervised learning, classification, regression, statistical learning theory, model evaluation, tree-based methods, support vector machines, and neural networks."
+  },
+  {
+    "objectID": "about.html#connect-with-me",
+    "href": "about.html#connect-with-me",
+    "title": "About",
+    "section": "Connect With Me",
+    "text": "Connect With Me\n\n🎓 Google Scholar: Jian He"
+  },
+  {
+    "objectID": "mathematics/index.html",
+    "href": "mathematics/index.html",
+    "title": "Mathematics",
     "section": "",
-    "text": "This section contains my notes on rigorous calculus, including sequences, limits, continuity, compactness, differentiation, integration, and metric spaces."
+    "text": "Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis."
+  },
+  {
+    "objectID": "mathematics/index.html#sections",
+    "href": "mathematics/index.html#sections",
+    "title": "Mathematics",
+    "section": "Sections",
+    "text": "Sections\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
   },
   {
     "objectID": "mathematics/single-variable-calculus/rate-of-change.html",
@@ -140,143 +175,80 @@
     "text": "Key takeaway\nA derivative is the limit of average rates of change. It measures the instantaneous rate of change of a function and gives the slope of the tangent line."
   },
   {
-    "objectID": "mathematics/index.html",
-    "href": "mathematics/index.html",
-    "title": "Mathematics",
+    "objectID": "mathematics/real-analysis/index.html",
+    "href": "mathematics/real-analysis/index.html",
+    "title": "Real Analysis",
     "section": "",
-    "text": "Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis."
+    "text": "This section contains my notes on rigorous calculus, including sequences, limits, continuity, compactness, differentiation, integration, and metric spaces."
   },
   {
-    "objectID": "mathematics/index.html#sections",
-    "href": "mathematics/index.html#sections",
-    "title": "Mathematics",
-    "section": "Sections",
-    "text": "Sections\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "mathematics/single-variable-calculus/index.html",
+    "href": "mathematics/single-variable-calculus/index.html",
+    "title": "Single Variable Calculus",
     "section": "",
-    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
+    "text": "This section contains my notes on limits, continuity, derivatives, integrals, sequences, series, Taylor expansions, and applications of single variable calculus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate of Change\n\n\nNotes from MIT OCW 18.01 Single Variable Calculus on derivatives, slope, velocity, and rate of change.\n\n\n\n\n\nMay 1, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SkywalkerHe’s Knowledge Fortress",
     "section": "",
-    "text": "Hi, I’m Jian He, a full-time biostatistician.\nMy current study and research interests focus on Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
+    "text": "A personal knowledge base for mathematics, causal inference, survival analysis, and machine learning.\nThis website organizes my study notes, technical explanations, mathematical derivations, and statistical methodology learning materials."
   },
   {
-    "objectID": "about.html#what-i-do",
-    "href": "about.html#what-i-do",
-    "title": "About",
-    "section": "What I Do",
-    "text": "What I Do\nI work at the intersection of statistics, biostatistics, and applied biomedical research, with a particular interest in:\n\nMathematics — single variable calculus, real analysis, probability, and statistical theory\nCausal Inference — potential outcomes, treatment effects, mediation analysis, and heterogeneous treatment effects\nSurvival Analysis — time-to-event outcomes, censoring, Cox models, competing risks, frailty models, and joint models\nMachine Learning — rank-based methods, permutation tests, nonparametric inference, and conformal inference\nR Programming — reproducible statistical analysis, simulation, visualization, and reporting"
+    "objectID": "index.html#main-study-areas",
+    "href": "index.html#main-study-areas",
+    "title": "SkywalkerHe’s Knowledge Fortress",
+    "section": "Main Study Areas",
+    "text": "Main Study Areas\n\n\nMathematics\nFoundational mathematical notes, currently focused on single variable calculus and real analysis.\nOpen Mathematics\n\n\nCausal Inference\nNotes on causal reasoning, potential outcomes, treatment effects, mediation analysis, and related methods.\nOpen Causal Inference\n\n\nSurvival Analysis\nNotes on time-to-event methods, censoring, Kaplan-Meier estimation, Cox models, competing risks, and related models.\nOpen Survival Analysis\n\n\nMachine Learning\nNotes on supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, and neural networks.\nOpen Machine Learning"
   },
   {
-    "objectID": "about.html#about-this-website",
-    "href": "about.html#about-this-website",
-    "title": "About",
-    "section": "About This Website",
-    "text": "About This Website\nSkywalkerHe’s Knowledge Fortress is my personal study-notes website.\nThe purpose of this website is to organize my long-term learning in mathematics and biostatistical methodology. I use it to collect definitions, theorems, derivations, examples, statistical interpretations, and reproducible code.\nThis website is built with Quarto and hosted on GitHub Pages."
+    "objectID": "index.html#mathematics-subareas",
+    "href": "index.html#mathematics-subareas",
+    "title": "SkywalkerHe’s Knowledge Fortress",
+    "section": "Mathematics Subareas",
+    "text": "Mathematics Subareas\n\n\nSingle Variable Calculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Single Variable Calculus\n\n\nReal Analysis\nRigorous treatment of limits, sequences, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
   },
   {
-    "objectID": "about.html#technical-focus",
-    "href": "about.html#technical-focus",
-    "title": "About",
-    "section": "Technical Focus",
-    "text": "Technical Focus\nThe main areas of this website are:\n\n\nMathematics\nNotes on single variable calculus, real analysis, probability, and mathematical foundations for statistics.\n\n\nCausal Inference\nNotes on treatment effects, potential outcomes, mediation, propensity score methods, and causal reasoning.\n\n\nSurvival Analysis\nNotes on time-to-event methods, Cox models, competing risks, frailty models, and joint modeling.\n\n\nMachine Learning\nNotes on supervised learning, classification, regression, statistical learning theory, model evaluation, tree-based methods, support vector machines, and neural networks."
-  },
-  {
-    "objectID": "about.html#connect-with-me",
-    "href": "about.html#connect-with-me",
-    "title": "About",
-    "section": "Connect With Me",
-    "text": "Connect With Me\n\n🎓 Google Scholar: Jian He"
-  },
-  {
-    "objectID": "machine-learning/index.html",
-    "href": "machine-learning/index.html",
-    "title": "Machine Learning",
+    "objectID": "survival-analysis/index.html",
+    "href": "survival-analysis/index.html",
+    "title": "Survival Analysis",
     "section": "",
-    "text": "This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods."
+    "text": "This section contains my study notes on survival analysis, including time-to-event outcomes, censoring, Kaplan-Meier estimation, Cox proportional hazards models, competing risks, frailty models, and joint models.\nAs I add more notes, this page will organize theoretical results, model interpretations, and applied biostatistical examples."
   },
   {
-    "objectID": "machine-learning/index.html#sections",
-    "href": "machine-learning/index.html#sections",
-    "title": "Machine Learning",
-    "section": "Sections",
-    "text": "Sections\n\n\nSTATS M254: Statistical Methods in Computational Biology\nStudy notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.\nOpen STATS M254 Notes"
+    "objectID": "machine-learning/stats-m254-computational-biology/index.html",
+    "href": "machine-learning/stats-m254-computational-biology/index.html",
+    "title": "STATS M254: Statistical Methods in Computational Biology",
+    "section": "",
+    "text": "This section contains my study notes for STATS M254: Statistical Methods in Computational Biology.\nThe notes focus on statistical and machine learning methods used in computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, multiple testing, and reproducible computational workflows."
   },
   {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#motivation",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#motivation",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
+    "objectID": "machine-learning/stats-m254-computational-biology/index.html#notes",
+    "href": "machine-learning/stats-m254-computational-biology/index.html#notes",
+    "title": "STATS M254: Statistical Methods in Computational Biology",
+    "section": "Notes",
+    "text": "Notes\n\nLecture 7"
+  },
+  {
+    "objectID": "causal-inference/moderation-analysis.html",
+    "href": "causal-inference/moderation-analysis.html",
+    "title": "Moderation Analysis",
+    "section": "",
+    "text": "Tang W, Yu Q, Crits-Christoph P, Tu XM. A new analytic framework for moderation analysis: moving beyond analytic interactions. Journal of Data Science. 2009;7:313-329."
+  },
+  {
+    "objectID": "causal-inference/moderation-analysis.html#reference",
+    "href": "causal-inference/moderation-analysis.html#reference",
+    "title": "Moderation Analysis",
+    "section": "",
+    "text": "Tang W, Yu Q, Crits-Christoph P, Tu XM. A new analytic framework for moderation analysis: moving beyond analytic interactions. Journal of Data Science. 2009;7:313-329."
+  },
+  {
+    "objectID": "causal-inference/moderation-analysis.html#motivation",
+    "href": "causal-inference/moderation-analysis.html#motivation",
+    "title": "Moderation Analysis",
     "section": "Motivation",
-    "text": "Motivation\nWhy do we care about this topic?"
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#setup",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#setup",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Setup",
-    "text": "Setup\nDefine notation and assumptions."
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#main-result",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#main-result",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Main result",
-    "text": "Main result\nState the theorem, model, method, or idea."
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#intuition",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#intuition",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Intuition",
-    "text": "Intuition\nExplain the idea in plain language."
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#mathematical-details",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#mathematical-details",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nShow derivations carefully."
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#r-implementation",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#r-implementation",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "R implementation",
-    "text": "R implementation\n\n\nCode\n# R code here"
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#common-mistakes",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#common-mistakes",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nMistake 1\nMistake 2\nMistake 3"
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#key-takeaway",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#key-takeaway",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nOne paragraph summary."
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#unsupervised-learning",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#unsupervised-learning",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Unsupervised Learning",
-    "text": "Unsupervised Learning\nOnly feature vectors are available.\nThere are two main types of unsupervised learning problems.\n\nClustering\nDimension Reduction"
-  },
-  {
-    "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#clustering",
-    "href": "machine-learning/stats-m254-computational-biology/lecture7.html#clustering",
-    "title": "Lecture 7 (DESeq; p-values; supervised learning; K-means)",
-    "section": "Clustering",
-    "text": "Clustering\n\nNotation\nData: \\(\\mathbf{x}_1, \\ldots, \\mathbf{x}_n\\), \\(i = 1,\\ldots,n\\), where \\(\\mathbf{x}_i\\) is a \\(p \\times 1\\) column vector.\nLet \\(c_i\\) denote the membership of \\(\\mathbf{x}_i\\) belonging to one of the K clusters.\n\n\nEuclidean Distance\n\n\\(\\|\\mathbf{x}_i - \\mathbf{x}_{i^{\\prime}}\\|_F = d(\\mathbf{x}_i, \\mathbf{x}_{i^{\\prime}}) = \\sqrt{\\sum_{j=1}^p \\left(x_{ij} - x_{i^{\\prime}j}\\right)^2}\\)\nAlso known as \\(l_2\\)-norm\n\n\n\nK-means Clustering\n\nK-means clustering is applicable to Euclidean distance.\nThe goal is to find \\(K\\) centers, denoted by \\(\\mathbf{m}_1, \\ldots, \\mathbf{m}_K \\in \\mathbb{R}^p\\), that minimizes \\[\\sum_{k=1}^K \\sum_{i: c_i = k} \\|\\mathbf{x}_i - \\mathbf{m}_k\\|_F^2 = \\sum_{k=1}^K \\sum_{i: c_i = k}\\sum_{j=1}^p (x_{ij} - m_{kj})^2 = f\\left(\\{c_i\\}_{i=1}^n, \\{\\mathbf{m}_k\\}_{k=1}^K\\right). \\tag{1}\\]\nK-means clustering is guaranteed to converge to a local minimum of the objective function (1).\nK-means clustering does not work when Euclidean distance is not a good measure of dissimilarity, e.g., Swiss roll problem.\nFor the Swiss roll problem, a solution is to use spectral clustering.\nK-means clustering also does not work well when there are outliers.\nTo check for outliers, we desire to plot data first by dimension reduction.\n\n\n\nAn Iterative Algorithm\nData points are assigned randomly to one of the K clusters: \\(c_1^{(0)}, \\ldots, c_n^{(0)}\\).\nThen, at the \\(r\\)th interaction, \\(r = 1, 2, \\ldots\\),\n\nwe update cluster centers by solving the following minimization problem \\[\\mathbf{m}_k^{(r)} = \\underset{\\mathbf{m}_k \\in \\mathbb{R}^p}{\\arg\\min} \\sum_{i: c_i^{(r-1)} = k} \\sum_{j=1}^p (x_{ij} - m_{kj})^2 \\implies m_{kj}^{(r)} = \\frac{1}{n_k^{(r-1)}}\\sum_{i: c_i^{(r-1)} = k}x_{ij}\\] (hint: differentiate with respect to \\(m_{kj}\\)’s for \\(j = 1, \\ldots, p\\).)\nwe then update cluster assignment by solving the following minimization problem \\[c_i^{(r)} = \\underset{k=1,\\ldots, K}{\\arg\\min} \\left\\|\\mathbf{x}_i - \\mathbf{m}_k^{(r)}\\right\\|_F^2\\] (hint: write (1) in an equivalent form by taking the summation of data points of i from 1 to n.)\n\nWe stop when \\(c_i^{(r)} = c_i^{(r-1)}\\) for all i.\n\n\nThe Local Minimum Problem\nThe iterative algorithm implemented in the K-means clustering works towards minimizing the objective function (1) at each step, and thus almost always leads to a local minimum.\nTo address this local minimum problem, we can do random initialization multiple times.\n\n\nKernel Trick\nIntuitively speaking, lower-dimensional data are projected to a higher-dimensional space so that they can be more easily separated?\n\n\nK-medians\n\n\\(l_2\\)-norm is changed to \\(l_1\\)-norm given by \\[\\|\\mathbf{x}_i - \\mathbf{x}_{i^{\\prime}}\\|_1 = \\sum_{i=1}^p |x_{ij} - x_{i^{\\prime}j}|.\\]\nIt can be shown that the solution to \\[\n\\underset{\\mathbf{m}_k \\in \\mathbb{R}^p}{\\arg\\min}\n\\sum_{i: c_i = k}\n\\left\\| \\mathbf{x}_i - \\mathbf{m}_k \\right\\|_1 = \\underset{\\mathbf{m}_k \\in \\mathbb{R}^p}{\\arg\\min}\n\\sum_{i: c_i = k} \\sum_{i=1}^p |x_{ij} - m_{kj}|\n\\] is \\(m_{kj} = \\mathrm{median}(x_{ij})_{i: c_i = k}.\\)"
+    "text": "Motivation\nModeration analysis asks whether the relationship between a predictor or exposure and an outcome differs across levels of another variable.\nIn ordinary regression language, the third variable is called a moderator. In causal inference language, the closely related idea is often called effect modification, causal interaction, or treatment effect heterogeneity.\nTang et al. argue that moderation analysis should not be reduced mechanically to testing product-term interactions such as \\(X \\times Z\\)."
   }
 ]

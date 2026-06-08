@@ -2,12 +2,15 @@ project:
   type: website
   output-dir: docs
 
+bibliography: references/references.bib
+csl: csl/vancouver.csl
+
 website:
   title: "SkywalkerHe's Knowledge Fortress"
   description: "Study notes in Mathematics, Causal Inference, Survival Analysis, and Machine Learning."
   site-url: "https://skywalker7he.github.io"
   repo-url: "https://github.com/skywalker7he/skywalker7he.github.io"
-  repo-actions: [edit, issue]
+  #repo-actions: [edit, issue]
   favicon: images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG
   search: true
 
@@ -58,7 +61,7 @@ format:
     toc-depth: 3
     number-sections: false
     code-fold: true
-    code-tools: true
+    code-tools: false
     smooth-scroll: true
     respect-user-color-scheme: true
 

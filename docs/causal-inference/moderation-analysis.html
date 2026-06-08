@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-05-01">
+<meta name="dcterms.date" content="2026-06-08">
+<meta name="description" content="Study notes on moderation analysis, effect modification, and why moderation should not be reduced to product-term interactions.">
 
-<title>Lecture 7 (DESeq; p-values; supervised learning; K-means) – SkywalkerHe’s Knowledge Fortress</title>
+<title>Moderation Analysis – SkywalkerHe’s Knowledge Fortress</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,28 +28,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-303746ecf1fe012f97e62d1349648592.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-303746ecf1fe012f97e62d1349648592.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,7 +109,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -289,11 +290,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
-    <img src="../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
+    <img src="../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SkywalkerHe’s Knowledge Fortress</span>
     </a>
   </div>
@@ -304,7 +305,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -313,25 +314,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mathematics">    
         <li>
-    <a class="dropdown-item" href="../../mathematics/index.html">
+    <a class="dropdown-item" href="../mathematics/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../mathematics/single-variable-calculus/index.html">
+    <a class="dropdown-item" href="../mathematics/single-variable-calculus/index.html">
  <span class="dropdown-text">Single Variable Calculus</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../mathematics/real-analysis/index.html">
+    <a class="dropdown-item" href="../mathematics/real-analysis/index.html">
  <span class="dropdown-text">Real Analysis</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../causal-inference/index.html"> 
+    <a class="nav-link" href="../causal-inference/index.html"> 
 <span class="menu-text">Causal Inference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../survival-analysis/index.html"> 
+    <a class="nav-link" href="../survival-analysis/index.html"> 
 <span class="menu-text">Survival Analysis</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -340,17 +341,17 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-machine-learning">    
         <li>
-    <a class="dropdown-item" href="../../machine-learning/index.html">
+    <a class="dropdown-item" href="../machine-learning/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../machine-learning/stats-m254-computational-biology/index.html">
+    <a class="dropdown-item" href="../machine-learning/stats-m254-computational-biology/index.html">
  <span class="dropdown-text">STATS M254 Computational Biology</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -377,18 +378,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lecture-video" id="toc-lecture-video" class="nav-link active" data-scroll-target="#lecture-video">Lecture video</a></li>
-  <li><a href="#unsupervised-learning" id="toc-unsupervised-learning" class="nav-link" data-scroll-target="#unsupervised-learning">Unsupervised Learning</a></li>
-  <li><a href="#clustering" id="toc-clustering" class="nav-link" data-scroll-target="#clustering">Clustering</a>
-  <ul class="collapse">
-  <li><a href="#notation" id="toc-notation" class="nav-link" data-scroll-target="#notation">Notation</a></li>
-  <li><a href="#euclidean-distance" id="toc-euclidean-distance" class="nav-link" data-scroll-target="#euclidean-distance">Euclidean Distance</a></li>
-  <li><a href="#k-means-clustering" id="toc-k-means-clustering" class="nav-link" data-scroll-target="#k-means-clustering">K-means Clustering</a></li>
-  <li><a href="#an-iterative-algorithm" id="toc-an-iterative-algorithm" class="nav-link" data-scroll-target="#an-iterative-algorithm">An Iterative Algorithm</a></li>
-  <li><a href="#the-local-minimum-problem" id="toc-the-local-minimum-problem" class="nav-link" data-scroll-target="#the-local-minimum-problem">The Local Minimum Problem</a></li>
-  <li><a href="#kernel-trick" id="toc-kernel-trick" class="nav-link" data-scroll-target="#kernel-trick">Kernel Trick</a></li>
-  <li><a href="#k-medians" id="toc-k-medians" class="nav-link" data-scroll-target="#k-medians">K-medians</a></li>
-  </ul></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
   </ul>
 </nav>
     </div>
@@ -398,14 +389,19 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lecture 7 (DESeq; p-values; supervised learning; K-means)</h1>
+<h1 class="title">Moderation Analysis</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">STATS M254</div>
-    <div class="quarto-category">Computational Biology</div>
-    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Causal Inference</div>
+    <div class="quarto-category">Moderation Analysis</div>
+    <div class="quarto-category">Effect Modification</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Study notes on moderation analysis, effect modification, and why moderation should not be reduced to product-term interactions.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -414,7 +410,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 1, 2026</p>
+      <p class="date">June 8, 2026</p>
     </div>
   </div>
   
@@ -426,81 +422,17 @@ window.Quarto = {
 </header>
 
 
-<section id="lecture-video" class="level2">
-<h2 class="anchored" data-anchor-id="lecture-video">Lecture video</h2>
-<div class="video-container">
-<iframe src="https://www.youtube.com/embed/FcB5EvPJoRY" title="STATS M254 Lecture Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</div>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Tang W, Yu Q, Crits-Christoph P, Tu XM. <a href="../references/pdfs/tang-2009-moderation.pdf">A new analytic framework for moderation analysis: moving beyond analytic interactions</a>. <em>Journal of Data Science</em>. 2009;7:313-329.</p>
 </section>
-<section id="unsupervised-learning" class="level2">
-<h2 class="anchored" data-anchor-id="unsupervised-learning">Unsupervised Learning</h2>
-<p>Only feature vectors are available.</p>
-<p>There are two main types of unsupervised learning problems.</p>
-<ol type="1">
-<li>Clustering</li>
-<li>Dimension Reduction</li>
-</ol>
-</section>
-<section id="clustering" class="level2">
-<h2 class="anchored" data-anchor-id="clustering">Clustering</h2>
-<section id="notation" class="level3">
-<h3 class="anchored" data-anchor-id="notation">Notation</h3>
-<p>Data: <span class="math inline">\(\mathbf{x}_1, \ldots, \mathbf{x}_n\)</span>, <span class="math inline">\(i = 1,\ldots,n\)</span>, where <span class="math inline">\(\mathbf{x}_i\)</span> is a <span class="math inline">\(p \times 1\)</span> column vector.</p>
-<p>Let <span class="math inline">\(c_i\)</span> denote the membership of <span class="math inline">\(\mathbf{x}_i\)</span> belonging to one of the K clusters.</p>
-</section>
-<section id="euclidean-distance" class="level3">
-<h3 class="anchored" data-anchor-id="euclidean-distance">Euclidean Distance</h3>
-<ul>
-<li><span class="math inline">\(\|\mathbf{x}_i - \mathbf{x}_{i^{\prime}}\|_F = d(\mathbf{x}_i, \mathbf{x}_{i^{\prime}}) = \sqrt{\sum_{j=1}^p \left(x_{ij} - x_{i^{\prime}j}\right)^2}\)</span></li>
-<li>Also known as <span class="math inline">\(l_2\)</span>-norm</li>
-</ul>
-</section>
-<section id="k-means-clustering" class="level3">
-<h3 class="anchored" data-anchor-id="k-means-clustering">K-means Clustering</h3>
-<ul>
-<li><p>K-means clustering is applicable to Euclidean distance.</p></li>
-<li><p>The goal is to find <span class="math inline">\(K\)</span> centers, denoted by <span class="math inline">\(\mathbf{m}_1, \ldots, \mathbf{m}_K \in \mathbb{R}^p\)</span>, that minimizes <span class="math display">\[\sum_{k=1}^K \sum_{i: c_i = k} \|\mathbf{x}_i - \mathbf{m}_k\|_F^2 = \sum_{k=1}^K \sum_{i: c_i = k}\sum_{j=1}^p (x_{ij} - m_{kj})^2 = f\left(\{c_i\}_{i=1}^n, \{\mathbf{m}_k\}_{k=1}^K\right). \tag{1}\]</span></p></li>
-<li><p>K-means clustering is guaranteed to converge to a local minimum of the objective function (1).</p></li>
-<li><p>K-means clustering does not work when Euclidean distance is not a good measure of dissimilarity, e.g., Swiss roll problem.</p></li>
-<li><p>For the Swiss roll problem, a solution is to use spectral clustering.</p></li>
-<li><p>K-means clustering also does not work well when there are outliers.</p></li>
-<li><p>To check for outliers, we desire to plot data first by dimension reduction.</p></li>
-</ul>
-</section>
-<section id="an-iterative-algorithm" class="level3">
-<h3 class="anchored" data-anchor-id="an-iterative-algorithm">An Iterative Algorithm</h3>
-<p>Data points are assigned randomly to one of the K clusters: <span class="math inline">\(c_1^{(0)}, \ldots, c_n^{(0)}\)</span>.</p>
-<p>Then, at the <span class="math inline">\(r\)</span>th interaction, <span class="math inline">\(r = 1, 2, \ldots\)</span>,</p>
-<ul>
-<li><p>we update cluster centers by solving the following minimization problem <span class="math display">\[\mathbf{m}_k^{(r)} = \underset{\mathbf{m}_k \in \mathbb{R}^p}{\arg\min} \sum_{i: c_i^{(r-1)} = k} \sum_{j=1}^p (x_{ij} - m_{kj})^2 \implies m_{kj}^{(r)} = \frac{1}{n_k^{(r-1)}}\sum_{i: c_i^{(r-1)} = k}x_{ij}\]</span> (hint: differentiate with respect to <span class="math inline">\(m_{kj}\)</span>’s for <span class="math inline">\(j = 1, \ldots, p\)</span>.)</p></li>
-<li><p>we then update cluster assignment by solving the following minimization problem <span class="math display">\[c_i^{(r)} = \underset{k=1,\ldots, K}{\arg\min} \left\|\mathbf{x}_i - \mathbf{m}_k^{(r)}\right\|_F^2\]</span> (hint: write (1) in an equivalent form by taking the summation of data points of i from 1 to n.)</p></li>
-</ul>
-<p>We stop when <span class="math inline">\(c_i^{(r)} = c_i^{(r-1)}\)</span> for all i.</p>
-</section>
-<section id="the-local-minimum-problem" class="level3">
-<h3 class="anchored" data-anchor-id="the-local-minimum-problem">The Local Minimum Problem</h3>
-<p>The iterative algorithm implemented in the K-means clustering works towards minimizing the objective function (1) at each step, and thus almost always leads to a local minimum.</p>
-<p>To address this local minimum problem, we can do random initialization multiple times.</p>
-</section>
-<section id="kernel-trick" class="level3">
-<h3 class="anchored" data-anchor-id="kernel-trick">Kernel Trick</h3>
-<p>Intuitively speaking, lower-dimensional data are projected to a higher-dimensional space so that they can be more easily separated?</p>
-</section>
-<section id="k-medians" class="level3">
-<h3 class="anchored" data-anchor-id="k-medians">K-medians</h3>
-<ul>
-<li><span class="math inline">\(l_2\)</span>-norm is changed to <span class="math inline">\(l_1\)</span>-norm given by <span class="math display">\[\|\mathbf{x}_i - \mathbf{x}_{i^{\prime}}\|_1 = \sum_{i=1}^p |x_{ij} - x_{i^{\prime}j}|.\]</span></li>
-<li>It can be shown that the solution to <span class="math display">\[
-\underset{\mathbf{m}_k \in \mathbb{R}^p}{\arg\min}
-\sum_{i: c_i = k}
-\left\| \mathbf{x}_i - \mathbf{m}_k \right\|_1 = \underset{\mathbf{m}_k \in \mathbb{R}^p}{\arg\min}
-\sum_{i: c_i = k} \sum_{i=1}^p |x_{ij} - m_{kj}|
-\]</span> is <span class="math inline">\(m_{kj} = \mathrm{median}(x_{ij})_{i: c_i = k}.\)</span></li>
-</ul>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Moderation analysis asks whether the relationship between a predictor or exposure and an outcome differs across levels of another variable.</p>
+<p>In ordinary regression language, the third variable is called a <strong>moderator</strong>. In causal inference language, the closely related idea is often called <strong>effect modification</strong>, <strong>causal interaction</strong>, or <strong>treatment effect heterogeneity</strong>.</p>
+<p>Tang et al.&nbsp;argue that moderation analysis should not be reduced mechanically to testing product-term interactions such as <span class="math inline">\(X \times Z\)</span>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -922,5 +854,5 @@ window.Quarto = {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

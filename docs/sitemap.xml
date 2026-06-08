@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://skywalker7he.github.io/causal-inference/index.html</loc>
-    <lastmod>2026-05-01T05:38:54.282Z</lastmod>
+    <lastmod>2026-06-08T14:01:10.541Z</lastmod>
   </url>
   <url>
-    <loc>https://skywalker7he.github.io/machine-learning/stats-m254-computational-biology/index.html</loc>
-    <lastmod>2026-05-01T13:44:32.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://skywalker7he.github.io/survival-analysis/index.html</loc>
-    <lastmod>2026-05-01T05:38:52.046Z</lastmod>
-  </url>
-  <url>
-    <loc>https://skywalker7he.github.io/index.html</loc>
-    <lastmod>2026-05-01T13:38:57.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://skywalker7he.github.io/mathematics/single-variable-calculus/index.html</loc>
-    <lastmod>2026-05-01T05:48:47.462Z</lastmod>
-  </url>
-  <url>
-    <loc>https://skywalker7he.github.io/mathematics/real-analysis/index.html</loc>
-    <lastmod>2026-05-01T05:39:51.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://skywalker7he.github.io/mathematics/single-variable-calculus/rate-of-change.html</loc>
-    <lastmod>2026-05-01T05:54:00.339Z</lastmod>
-  </url>
-  <url>
-    <loc>https://skywalker7he.github.io/mathematics/index.html</loc>
-    <lastmod>2026-05-01T05:38:01.740Z</lastmod>
-  </url>
-  <url>
-    <loc>https://skywalker7he.github.io/about.html</loc>
-    <lastmod>2026-05-01T13:37:07.457Z</lastmod>
+    <loc>https://skywalker7he.github.io/machine-learning/stats-m254-computational-biology/lecture7.html</loc>
+    <lastmod>2026-05-05T03:40:27.395Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/machine-learning/index.html</loc>
     <lastmod>2026-05-01T13:48:51.447Z</lastmod>
   </url>
   <url>
-    <loc>https://skywalker7he.github.io/machine-learning/stats-m254-computational-biology/lecture7.html</loc>
-    <lastmod>2026-05-05T03:40:27.395Z</lastmod>
+    <loc>https://skywalker7he.github.io/about.html</loc>
+    <lastmod>2026-05-01T13:37:07.457Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/index.html</loc>
+    <lastmod>2026-05-01T05:38:01.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/single-variable-calculus/rate-of-change.html</loc>
+    <lastmod>2026-05-01T05:54:00.339Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/index.html</loc>
+    <lastmod>2026-05-01T05:39:51.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/single-variable-calculus/index.html</loc>
+    <lastmod>2026-05-01T05:48:47.462Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/index.html</loc>
+    <lastmod>2026-05-01T13:38:57.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/survival-analysis/index.html</loc>
+    <lastmod>2026-05-01T05:38:52.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/machine-learning/stats-m254-computational-biology/index.html</loc>
+    <lastmod>2026-05-01T13:44:32.039Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/causal-inference/moderation-analysis.html</loc>
+    <lastmod>2026-06-08T15:36:21.343Z</lastmod>
   </url>
 </urlset>
