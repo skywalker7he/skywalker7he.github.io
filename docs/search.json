@@ -39,7 +39,7 @@
     "href": "machine-learning/index.html#sections",
     "title": "Machine Learning",
     "section": "Sections",
-    "text": "Sections\n\n\nSTATS M254: Statistical Methods in Computational Biology\nStudy notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.\nOpen STATS M254 Notes"
+    "text": "Sections\n\n\nUCLA STATS M254: Statistical Methods in Computational Biology\nStudy notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.\nOpen UCLA STATS M254 Notes"
   },
   {
     "objectID": "about.html",
@@ -1829,14 +1829,14 @@
   {
     "objectID": "machine-learning/stats-m254-computational-biology/index.html",
     "href": "machine-learning/stats-m254-computational-biology/index.html",
-    "title": "STATS M254: Statistical Methods in Computational Biology",
+    "title": "UCLA STATS M254: Statistical Methods in Computational Biology",
     "section": "",
-    "text": "This section contains my study notes for STATS M254: Statistical Methods in Computational Biology.\nThe notes focus on statistical and machine learning methods used in computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, multiple testing, and reproducible computational workflows."
+    "text": "This section contains my study notes for UCLA STATS M254: Statistical Methods in Computational Biology.\nThe notes focus on statistical and machine learning methods used in computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, multiple testing, and reproducible computational workflows."
   },
   {
     "objectID": "machine-learning/stats-m254-computational-biology/index.html#notes",
     "href": "machine-learning/stats-m254-computational-biology/index.html#notes",
-    "title": "STATS M254: Statistical Methods in Computational Biology",
+    "title": "UCLA STATS M254: Statistical Methods in Computational Biology",
     "section": "Notes",
     "text": "Notes\n\nLecture 7"
   },

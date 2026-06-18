@@ -9,11 +9,11 @@ This section contains my study notes on machine learning, including supervised l
 ::: {.content-grid}
 
 ::: {.content-card}
-### STATS M254: Statistical Methods in Computational Biology
+### UCLA STATS M254: Statistical Methods in Computational Biology
 
 Study notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.
 
-[Open STATS M254 Notes](stats-m254-computational-biology/index.qmd)
+[Open UCLA STATS M254 Notes](stats-m254-computational-biology/index.qmd)
 :::
 
 :::

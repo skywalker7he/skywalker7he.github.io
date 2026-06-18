@@ -2,14 +2,14 @@
 title: "Lecture 7 (DESeq; p-values; supervised learning; K-means)"
 #description: "One-sentence summary of this note."
 date: "2026-05-01"
-categories: [STATS M254, Computational Biology, Machine Learning]
+categories: [UCLA STATS M254, Computational Biology, Machine Learning]
 ---
 
 ## Lecture video
 
 <div class="video-container">
 <iframe src="https://www.youtube.com/embed/FcB5EvPJoRY"
-        title="STATS M254 Lecture Video"
+        title="UCLA STATS M254 Lecture Video"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
