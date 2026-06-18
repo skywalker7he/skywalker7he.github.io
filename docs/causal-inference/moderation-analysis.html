@@ -79,35 +79,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -372,7 +343,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference</a></li>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
   </ul>
 </nav>
     </div>
@@ -419,11 +390,12 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="reference">Reference</h2>
 <p>Tang W, Yu Q, Crits-Christoph P, Tu XM. <a href="../references/pdfs/tang-2009-moderation.pdf">A new analytic framework for moderation analysis: moving beyond analytic interactions</a>. <em>Journal of Data Science</em>. 2009;7:313-329.</p>
 </section>
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Moderation analysis asks whether the relationship between a predictor or exposure and an outcome differs across levels of another variable.</p>
-<p>In ordinary regression language, the third variable is called a <strong>moderator</strong>. In causal inference language, the closely related idea is often called <strong>effect modification</strong>, <strong>causal interaction</strong>, or <strong>treatment effect heterogeneity</strong>.</p>
-<p>Tang et al.&nbsp;argue that moderation analysis should not be reduced mechanically to testing product-term interactions such as <span class="math inline">\(X \times Z\)</span>.</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<ul>
+<li>Conceptually, a moderator is a variable that modifies the effect of a predictor on a response.</li>
+<li>Analytically, a common approach as used in most moderation analyses is to add analytic interactions involving the predictor and moderator in the form of cross-varaible products and test the significance of such terms.</li>
+</ul>
 
 
 </section>

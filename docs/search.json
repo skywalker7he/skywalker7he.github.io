@@ -245,10 +245,10 @@
     "text": "Tang W, Yu Q, Crits-Christoph P, Tu XM. A new analytic framework for moderation analysis: moving beyond analytic interactions. Journal of Data Science. 2009;7:313-329."
   },
   {
-    "objectID": "causal-inference/moderation-analysis.html#motivation",
-    "href": "causal-inference/moderation-analysis.html#motivation",
+    "objectID": "causal-inference/moderation-analysis.html#abstract",
+    "href": "causal-inference/moderation-analysis.html#abstract",
     "title": "Moderation Analysis",
-    "section": "Motivation",
-    "text": "Motivation\nModeration analysis asks whether the relationship between a predictor or exposure and an outcome differs across levels of another variable.\nIn ordinary regression language, the third variable is called a moderator. In causal inference language, the closely related idea is often called effect modification, causal interaction, or treatment effect heterogeneity.\nTang et al. argue that moderation analysis should not be reduced mechanically to testing product-term interactions such as \\(X \\times Z\\)."
+    "section": "Abstract",
+    "text": "Abstract\n\nConceptually, a moderator is a variable that modifies the effect of a predictor on a response.\nAnalytically, a common approach as used in most moderation analyses is to add analytic interactions involving the predictor and moderator in the form of cross-varaible products and test the significance of such terms."
   }
 ]
