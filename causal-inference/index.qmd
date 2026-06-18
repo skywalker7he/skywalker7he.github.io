@@ -2,8 +2,68 @@
 title: "Causal Inference"
 ---
 
-This section contains my study notes on causal inference, including causal reasoning, potential outcomes, treatment effects, propensity scores, mediation analysis, moderation analysis, and heterogeneous treatment effects.
+This section contains my study notes on causal inference, including randomized experiments, observational studies, propensity scores, matching, weighting, doubly robust estimation, instrumental variables, causal machine learning, and treatment effect heterogeneity.
 
-## Notes
+## Courses {#courses}
 
-- [Moderation Analysis](moderation-analysis.qmd)
+::: {.content-grid}
+
+::: {.content-card}
+### Duke STA 640: Causal Inference
+
+Study notes based on Fan Li's causal inference course at Duke University.
+
+[Open Duke STA 640 Notes](sta-640-causal-inference/index.qmd)
+:::
+
+::: {.content-card}
+### Stanford STATS 361: Causal Inference
+
+Study notes based on Stefan Wager's causal inference course at Stanford University.
+
+[Open Stanford STATS 361 Notes](stats-361-causal-inference/index.qmd)
+:::
+
+:::
+
+<details id="more-courses" class="show-more-section">
+<summary>Show more courses</summary>
+
+::: {.content-grid}
+
+::: {.content-card}
+### Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference
+
+Study notes based on Susan Athey and Stefan Wager's course on machine learning and causal inference.
+
+[Open Stanford ECON 293 / MGTECON 634 Notes](econ-293-mgtecon-634-machine-learning-and-causal-inference/index.qmd)
+:::
+
+:::
+
+<div class="fold-button-row">
+<button type="button" class="fold-back-btn"
+onclick="document.getElementById('more-courses').open = false; document.getElementById('courses').scrollIntoView({behavior: 'smooth', block: 'start'});">
+Show fewer courses
+</button>
+</div>
+
+</details>
+
+## Research Articles
+
+- [Moderation Analysis (Tang et al. 2009)](moderation-analysis.qmd)
+
+<!--
+When you have more than three research-article notes, keep the first three above,
+then put the rest inside this block:
+
+<details class="show-more-section">
+<summary>Show more research articles</summary>
+
+- [Article 4](article4.qmd)
+- [Article 5](article5.qmd)
+- [Article 6](article6.qmd)
+
+</details>
+-->

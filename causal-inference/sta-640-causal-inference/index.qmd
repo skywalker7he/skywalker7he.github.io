@@ -1,0 +1,18 @@
+---
+title: "Duke STA 640: Causal Inference"
+description: "Study notes based on Duke STA 640: Causal Inference taught by Fan Li."
+date: "2026-06-18"
+categories: [Causal Inference, Duke STA 640, Duke]
+---
+
+## Course source
+
+These are my study notes based on **Duke STA 640: Causal Inference**, taught by Fan Li.
+
+- Course page: <https://www2.stat.duke.edu/~fl35/CausalInferenceClass.html>
+
+## Notes
+
+Supplemented by Ding's *A First Course in Causal Inference* [@Ding2024FirstCourse].
+
+- [Chapter 1](chapter1.qmd)

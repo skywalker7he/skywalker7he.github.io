@@ -1,0 +1,12 @@
+---
+title: "Chapter 1"
+description: "Study notes for Duke STA 640: Causal Inference."
+date: "2026-06-18"
+categories: [Causal Inference, Duke STA 640]
+---
+
+[← Back to Duke STA 640](index.qmd)
+
+## Notes
+
+To be added.

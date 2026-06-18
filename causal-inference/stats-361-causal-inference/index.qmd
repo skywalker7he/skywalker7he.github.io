@@ -1,0 +1,16 @@
+---
+title: "Stanford STATS 361: Causal Inference"
+description: "Study notes based on Stanford STATS 361: Causal Inference taught by Stefan Wager."
+date: "2026-06-18"
+categories: [Causal Inference, Stanford STATS 361, Stanford]
+---
+
+## Course source
+
+These are my study notes based on **Stanford STATS 361: Causal Inference**, taught by Stefan Wager.
+
+- Class notes: <https://web.stanford.edu/~swager/causal_inf_book.pdf>
+
+## Notes
+
+- [Chapter 1](chapter1.qmd)

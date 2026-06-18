@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-08">
-<meta name="description" content="Study notes on moderation analysis, effect modification, and why moderation should not be reduced to product-term interactions.">
+<meta name="dcterms.date" content="2026-06-18">
+<meta name="description" content="Study notes based on Stanford STATS 361: Causal Inference taught by Stefan Wager.">
 
-<title>A General Framework of Moderation Analysis – SkywalkerHe’s Knowledge Fortress</title>
+<title>Stanford STATS 361: Causal Inference – SkywalkerHe’s Knowledge Fortress</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,28 +28,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-303746ecf1fe012f97e62d1349648592.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-303746ecf1fe012f97e62d1349648592.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -261,11 +261,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
-    <img src="../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
+    <img src="../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SkywalkerHe’s Knowledge Fortress</span>
     </a>
   </div>
@@ -276,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -285,25 +285,25 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mathematics">    
         <li>
-    <a class="dropdown-item" href="../mathematics/index.html">
+    <a class="dropdown-item" href="../../mathematics/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../mathematics/calculus/index.html">
+    <a class="dropdown-item" href="../../mathematics/calculus/index.html">
  <span class="dropdown-text">Calculus</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../mathematics/real-analysis/index.html">
+    <a class="dropdown-item" href="../../mathematics/real-analysis/index.html">
  <span class="dropdown-text">Real Analysis</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../causal-inference/index.html"> 
+    <a class="nav-link" href="../../causal-inference/index.html"> 
 <span class="menu-text">Causal Inference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../survival-analysis/index.html"> 
+    <a class="nav-link" href="../../survival-analysis/index.html"> 
 <span class="menu-text">Survival Analysis</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -312,17 +312,17 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-machine-learning">    
         <li>
-    <a class="dropdown-item" href="../machine-learning/index.html">
+    <a class="dropdown-item" href="../../machine-learning/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../machine-learning/stats-m254-computational-biology/index.html">
+    <a class="dropdown-item" href="../../machine-learning/stats-m254-computational-biology/index.html">
  <span class="dropdown-text">UCLA STATS M254</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -342,8 +342,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#course-source" id="toc-course-source" class="nav-link active" data-scroll-target="#course-source">Course source</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -353,17 +353,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A General Framework of Moderation Analysis</h1>
+<h1 class="title">Stanford STATS 361: Causal Inference</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Causal Inference</div>
-    <div class="quarto-category">Moderation Analysis</div>
-    <div class="quarto-category">Effect Modification</div>
+    <div class="quarto-category">Stanford STATS 361</div>
+    <div class="quarto-category">Stanford</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Study notes on moderation analysis, effect modification, and why moderation should not be reduced to product-term interactions.
+    Study notes based on Stanford STATS 361: Causal Inference taught by Stefan Wager.
   </div>
 </div>
 
@@ -374,7 +374,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 8, 2026</p>
+      <p class="date">June 18, 2026</p>
     </div>
   </div>
   
@@ -386,15 +386,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="reference" class="level2">
-<h2 class="anchored" data-anchor-id="reference">Reference</h2>
-<p>Tang W, Yu Q, Crits-Christoph P, Tu XM. <a href="../references/pdfs/tang-2009-moderation.pdf">A new analytic framework for moderation analysis: moving beyond analytic interactions</a>. <em>Journal of Data Science</em>. 2009;7:313-329.</p>
-</section>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<section id="course-source" class="level2">
+<h2 class="anchored" data-anchor-id="course-source">Course source</h2>
+<p>These are my study notes based on <strong>Stanford STATS 361: Causal Inference</strong>, taught by Stefan Wager.</p>
 <ul>
-<li>Conceptually, a moderator is a variable that modifies the effect of a predictor on a response.</li>
-<li>Analytically, a common approach as used in most moderation analyses is to add analytic interactions involving the predictor and moderator in the form of cross-varaible products and test the significance of such terms.</li>
+<li>Class notes: <a href="https://web.stanford.edu/~swager/causal_inf_book.pdf" class="uri">https://web.stanford.edu/~swager/causal_inf_book.pdf</a></li>
+</ul>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li><a href="../../causal-inference/stats-361-causal-inference/chapter1.html">Chapter 1</a></li>
 </ul>
 
 
@@ -782,5 +784,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

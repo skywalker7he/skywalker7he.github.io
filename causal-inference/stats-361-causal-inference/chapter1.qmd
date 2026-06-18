@@ -1,0 +1,12 @@
+---
+title: "Chapter 1"
+description: "Study notes for Stanford STATS 361: Causal Inference."
+date: "2026-06-18"
+categories: [Causal Inference, Stanford STATS 361]
+---
+
+[← Back to Stanford STATS 361](index.qmd)
+
+## Notes
+
+To be added.

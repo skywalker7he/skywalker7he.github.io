@@ -1,5 +1,5 @@
 ---
-title: "Moderation Analysis"
+title: "A General Framework of Moderation Analysis"
 description: "Study notes on moderation analysis, effect modification, and why moderation should not be reduced to product-term interactions."
 date: "2026-06-08"
 categories: [Causal Inference, Moderation Analysis, Effect Modification]

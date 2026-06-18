@@ -1,0 +1,12 @@
+---
+title: "Tutorial 1"
+description: "Software tutorial notes for Stanford ECON 293 / MGTECON 634."
+date: "2026-06-18"
+categories: [Causal Inference, Machine Learning, Software Tutorial]
+---
+
+[← Back to Stanford ECON 293 / MGTECON 634](index.qmd)
+
+## Notes
+
+To be added.

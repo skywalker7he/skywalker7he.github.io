@@ -1,0 +1,18 @@
+---
+title: "Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference"
+description: "Study notes based on Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference co-taught by Susan Athey and Stefan Wager."
+date: "2026-06-18"
+categories: [Causal Inference, Machine Learning, Stanford ECON 293, Stanford MGTECON 634, Stanford]
+---
+
+## Course source
+
+These are my study notes based on **Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference**, co-taught by Susan Athey and Stefan Wager.
+
+- Lecture videos: <https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G->
+- Software tutorials: <https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/>
+
+## Notes
+
+- [Lecture 1](lecture1.qmd)
+- [Tutorial 1](tutorial1.qmd)

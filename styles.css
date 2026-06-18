@@ -202,3 +202,48 @@ body.quarto-dark .profile-photo {
   height: 100%;
   border: 0;
 }
+
+/* Show more / collapse courses */
+
+.show-more-section {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.show-more-section summary {
+  cursor: pointer;
+  color: #00c896;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.show-more-section summary:hover {
+  text-decoration: underline;
+}
+
+/* After opening, hide the "Show more courses" line */
+.show-more-section[open] > summary {
+  display: none;
+}
+
+/* Collapse button below expanded courses */
+.fold-button-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+}
+
+.fold-back-btn {
+  background-color: transparent;
+  color: #00c896;
+  border: 1px solid #00c896;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fold-back-btn:hover {
+  background-color: #00c896;
+  color: #111111;
+}

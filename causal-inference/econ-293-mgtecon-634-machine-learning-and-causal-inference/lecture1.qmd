@@ -1,0 +1,12 @@
+---
+title: "Lecture 1"
+description: "Study notes for Stanford ECON 293 / MGTECON 634."
+date: "2026-06-18"
+categories: [Causal Inference, Machine Learning, Stanford ECON 293, Stanford MGTECON 634]
+---
+
+[← Back to Stanford ECON 293 / MGTECON 634](index.qmd)
+
+## Notes
+
+To be added.

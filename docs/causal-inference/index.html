@@ -340,7 +340,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#notes" id="toc-notes" class="nav-link active" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#courses" id="toc-courses" class="nav-link active" data-scroll-target="#courses">Courses</a>
+  <ul class="collapse">
+  <li><a href="#stanford-econ-293-mgtecon-634-machine-learning-and-causal-inference" id="toc-stanford-econ-293-mgtecon-634-machine-learning-and-causal-inference" class="nav-link" data-scroll-target="#stanford-econ-293-mgtecon-634-machine-learning-and-causal-inference">Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference</a></li>
+  </ul></li>
+  <li><a href="#research-articles" id="toc-research-articles" class="nav-link" data-scroll-target="#research-articles">Research Articles</a></li>
   </ul>
 </nav>
     </div>
@@ -367,12 +371,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This section contains my study notes on causal inference, including causal reasoning, potential outcomes, treatment effects, propensity scores, mediation analysis, moderation analysis, and heterogeneous treatment effects.</p>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>This section contains my study notes on causal inference, including randomized experiments, observational studies, propensity scores, matching, weighting, doubly robust estimation, instrumental variables, causal machine learning, and treatment effect heterogeneity.</p>
+<section id="courses" class="level2">
+<h2 class="anchored" data-anchor-id="courses">Courses</h2>
+<div class="content-grid">
+<section id="duke-sta-640-causal-inference" class="level3 content-card">
+<h3 class="anchored" data-anchor-id="duke-sta-640-causal-inference">Duke STA 640: Causal Inference</h3>
+<p>Study notes based on Fan Li’s causal inference course at Duke University.</p>
+<p><a href="../causal-inference/sta-640-causal-inference/index.html">Open Duke STA 640 Notes</a></p>
+</section>
+<section id="stanford-stats-361-causal-inference" class="level3 content-card">
+<h3 class="anchored" data-anchor-id="stanford-stats-361-causal-inference">Stanford STATS 361: Causal Inference</h3>
+<p>Study notes based on Stefan Wager’s causal inference course at Stanford University.</p>
+<p><a href="../causal-inference/stats-361-causal-inference/index.html">Open Stanford STATS 361 Notes</a></p>
+</section>
+</div>
+<details id="more-courses" class="show-more-section">
+<summary>
+Show more courses
+</summary>
+<div class="content-grid">
+<section id="stanford-econ-293-mgtecon-634-machine-learning-and-causal-inference" class="level3 content-card">
+<h3 class="anchored" data-anchor-id="stanford-econ-293-mgtecon-634-machine-learning-and-causal-inference">Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference</h3>
+<p>Study notes based on Susan Athey and Stefan Wager’s course on machine learning and causal inference.</p>
+<p><a href="../causal-inference/econ-293-mgtecon-634-machine-learning-and-causal-inference/index.html">Open Stanford ECON 293 / MGTECON 634 Notes</a></p>
+</section>
+</div>
+<div class="fold-button-row">
+<button type="button" class="fold-back-btn" onclick="document.getElementById('more-courses').open = false; document.getElementById('courses').scrollIntoView({behavior: 'smooth', block: 'start'});">
+Show fewer courses
+</button>
+</div>
+</details>
+</section>
+<section id="research-articles" class="level2">
+<h2 class="anchored" data-anchor-id="research-articles">Research Articles</h2>
 <ul>
-<li><a href="../causal-inference/moderation-analysis.html">Moderation Analysis</a></li>
+<li><a href="../causal-inference/moderation-analysis.html">Moderation Analysis (Tang et al.&nbsp;2009)</a></li>
 </ul>
+<!--
+When you have more than three research-article notes, keep the first three above,
+then put the rest inside this block:
+
+<details class="show-more-section">
+<summary>Show more research articles</summary>
+
+- [Article 4](article4.qmd)
+- [Article 5](article5.qmd)
+- [Article 6](article6.qmd)
+
+</details>
+-->
 
 
 </section>
