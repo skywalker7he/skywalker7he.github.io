@@ -53,11 +53,11 @@ Notes on supervised learning, classification, regression, model evaluation, tree
 ::: {.content-grid}
 
 ::: {.content-card}
-### Single Variable Calculus
+### Calculus
 
 Limits, continuity, derivatives, integrals, sequences, series, and applications.
 
-[Open Single Variable Calculus](mathematics/single-variable-calculus/index.qmd)
+[Open Calculus](mathematics/calculus/index.qmd)
 :::
 
 ::: {.content-card}

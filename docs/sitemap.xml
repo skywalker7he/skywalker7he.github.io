@@ -2,50 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://skywalker7he.github.io/causal-inference/index.html</loc>
-    <lastmod>2026-06-08T14:01:10.541Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.507Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/machine-learning/stats-m254-computational-biology/lecture7.html</loc>
-    <lastmod>2026-05-05T03:40:27.395Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.507Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/machine-learning/index.html</loc>
-    <lastmod>2026-05-01T13:48:51.447Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.506Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/about.html</loc>
-    <lastmod>2026-05-01T13:37:07.457Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/calculus/index.html</loc>
+    <lastmod>2026-06-18T14:30:58.505Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/mathematics/index.html</loc>
-    <lastmod>2026-05-01T05:38:01.740Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.504Z</lastmod>
   </url>
   <url>
-    <loc>https://skywalker7he.github.io/mathematics/single-variable-calculus/rate-of-change.html</loc>
-    <lastmod>2026-05-01T05:54:00.339Z</lastmod>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html</loc>
+    <lastmod>2026-06-18T15:07:29.190Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html</loc>
+    <lastmod>2026-06-18T15:07:29.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html</loc>
+    <lastmod>2026-06-18T15:07:29.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html</loc>
+    <lastmod>2026-06-18T15:07:29.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html</loc>
+    <lastmod>2026-06-18T15:07:29.186Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html</loc>
+    <lastmod>2026-06-18T15:07:29.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html</loc>
+    <lastmod>2026-06-18T15:07:29.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html</loc>
+    <lastmod>2026-06-18T15:07:29.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html</loc>
+    <lastmod>2026-06-18T15:07:29.204Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html</loc>
+    <lastmod>2026-06-18T15:07:29.210Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html</loc>
+    <lastmod>2026-06-18T15:07:29.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html</loc>
+    <lastmod>2026-06-18T15:07:29.214Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html</loc>
+    <lastmod>2026-06-18T15:07:29.179Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/mathematics/real-analysis/index.html</loc>
-    <lastmod>2026-05-01T05:39:51.249Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.503Z</lastmod>
   </url>
   <url>
-    <loc>https://skywalker7he.github.io/mathematics/single-variable-calculus/index.html</loc>
-    <lastmod>2026-05-01T05:48:47.462Z</lastmod>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html</loc>
+    <lastmod>2026-06-18T15:07:29.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html</loc>
+    <lastmod>2026-06-18T15:07:29.212Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html</loc>
+    <lastmod>2026-06-18T15:07:29.176Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html</loc>
+    <lastmod>2026-06-18T15:07:29.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/index.html</loc>
+    <lastmod>2026-06-18T15:26:28.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html</loc>
+    <lastmod>2026-06-18T15:07:29.181Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html</loc>
+    <lastmod>2026-06-18T15:07:29.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html</loc>
+    <lastmod>2026-06-18T15:07:29.188Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html</loc>
+    <lastmod>2026-06-18T15:07:29.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html</loc>
+    <lastmod>2026-06-18T15:07:29.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html</loc>
+    <lastmod>2026-06-18T15:07:29.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture15.html</loc>
+    <lastmod>2026-06-18T15:07:29.192Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html</loc>
+    <lastmod>2026-06-18T15:07:29.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://skywalker7he.github.io/mathematics/calculus/rate-of-change.html</loc>
+    <lastmod>2026-06-18T14:30:58.504Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/index.html</loc>
-    <lastmod>2026-05-01T13:38:57.472Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.505Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/survival-analysis/index.html</loc>
-    <lastmod>2026-05-01T05:38:52.046Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.506Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/machine-learning/stats-m254-computational-biology/index.html</loc>
-    <lastmod>2026-05-01T13:44:32.039Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.506Z</lastmod>
   </url>
   <url>
     <loc>https://skywalker7he.github.io/causal-inference/moderation-analysis.html</loc>
-    <lastmod>2026-06-09T14:06:14.961Z</lastmod>
+    <lastmod>2026-06-18T14:30:58.507Z</lastmod>
   </url>
 </urlset>

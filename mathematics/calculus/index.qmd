@@ -1,0 +1,9 @@
+---
+title: "Calculus"
+listing:
+  contents: "*.qmd"
+  type: default
+  sort: "title"
+---
+
+This section contains my notes on 

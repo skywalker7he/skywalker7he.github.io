@@ -1,15 +1,15 @@
 ---
 title: "Rate of Change"
-description: "Notes from MIT OCW 18.01 Single Variable Calculus on derivatives, slope, velocity, and rate of change."
+description: "Notes from MIT OCW 18.01 Calculus on derivatives, slope, velocity, and rate of change."
 date: "2026-05-01"
-categories: [Single Variable Calculus, Derivatives, MIT OCW 18.01]
+categories: [Calculus, Derivatives, MIT OCW 18.01]
 ---
 
 ## Source
 
-These are my personal study notes based on MIT OpenCourseWare 18.01 Single Variable Calculus.
+These are my personal study notes based on MIT OpenCourseWare 18.01 Calculus.
 
-Course page: MIT OCW 18.01 Single Variable Calculus, Fall 2006.
+Course page: MIT OCW 18.01 Calculus, Fall 2006.
 
 ## Topics
 

@@ -287,8 +287,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../mathematics/single-variable-calculus/index.html">
- <span class="dropdown-text">Single Variable Calculus</span></a>
+    <a class="dropdown-item" href="../mathematics/calculus/index.html">
+ <span class="dropdown-text">Calculus</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../mathematics/real-analysis/index.html">
@@ -371,10 +371,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="sections" class="level2">
 <h2 class="anchored" data-anchor-id="sections">Sections</h2>
 <div class="content-grid">
-<section id="single-variable-calculus" class="level3 content-card">
-<h3 class="anchored" data-anchor-id="single-variable-calculus">Single Variable Calculus</h3>
+<section id="calculus" class="level3 content-card">
+<h3 class="anchored" data-anchor-id="calculus">Calculus</h3>
 <p>Limits, continuity, derivatives, integrals, sequences, series, and applications.</p>
-<p><a href="../mathematics/single-variable-calculus/index.html">Open Single Variable Calculus</a></p>
+<p><a href="../mathematics/calculus/index.html">Open Calculus</a></p>
 </section>
 <section id="real-analysis" class="level3 content-card">
 <h3 class="anchored" data-anchor-id="real-analysis">Real Analysis</h3>
@@ -761,43 +761,6 @@ ul.task-list li input[type="checkbox"] {
             }
           });
         }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
   });
   </script>
 </div> <!-- /content -->

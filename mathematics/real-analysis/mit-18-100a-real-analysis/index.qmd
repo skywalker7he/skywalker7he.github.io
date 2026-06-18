@@ -1,0 +1,51 @@
+---
+title: "MIT 18.100A Real Analysis"
+description: "Study notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+date: "2026-06-08"
+categories: [Mathematics, Real Analysis, MIT OCW, 18.100A]
+---
+
+## Course source
+
+These are my study notes based on MIT OpenCourseWare **18.100A Real Analysis, Fall 2020**.
+
+- Course page: <https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/>
+- Lecture notes and readings: <https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/pages/lecture-notes-and-readings/>
+- Lecture videos: <https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/video_galleries/video-lectures/>
+
+## Notes {#notes}
+
+Supplemented by [Hammack’s *Book of Proof*](../../../references/pdfs/Book-of-Proof-3rd-Edition.pdf), Cummings’ *Proofs: A Long-Form Mathematics Textbook*, and Cummings’ *Real Analysis: A Long-Form Mathematics Textbook* [@Hammack2018BookOfProof; @Cummings2021Proofs; @Cummings2019RealAnalysis].
+
+- [Lecture 1](lecture1.qmd)
+- [Lecture 2](lecture2.qmd)
+- [Lecture 3](lecture3.qmd)
+- [Lecture 4](lecture4.qmd)
+- [Lecture 5](lecture5.qmd)
+- [Lecture 6](lecture6.qmd)
+- [Lecture 7](lecture7.qmd)
+- [Lecture 8](lecture8.qmd)
+- [Lecture 9](lecture9.qmd)
+- [Lecture 10](lecture10.qmd)
+- [Lecture 11](lecture11.qmd)
+- [Lecture 12](lecture12.qmd)
+- [Lecture 13](lecture13.qmd)
+- [Lecture 14](lecture14.qmd)
+- [Lecture 15](lecture15.qmd)
+- [Lecture 16](lecture16.qmd)
+- [Lecture 17](lecture17.qmd)
+- [Lecture 18](lecture18.qmd)
+- [Lecture 19](lecture19.qmd)
+- [Lecture 20](lecture20.qmd)
+- [Lecture 21](lecture21.qmd)
+- [Lecture 22](lecture22.qmd)
+- [Lecture 23](lecture23.qmd)
+- [Lecture 24](lecture24.qmd)
+- [Lecture 25](lecture25.qmd)
+
+## References
+
+::: {#refs}
+:::
+
+[↑ Back to Notes](#notes){.btn .btn-outline-primary .btn-sm}

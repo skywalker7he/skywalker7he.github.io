@@ -1,0 +1,42 @@
+---
+title: "Lecture 20"
+description: "Study notes for Lecture 20 of MIT 18.100A Real Analysis."
+date: "2026-06-08"
+categories: [Real Analysis, MIT 18.100A]
+---
+
+[← Back to MIT 18.100A](index.qmd)
+
+## Primary source
+
+These are my study notes for **Lecture 20** of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.
+
+## Motivation
+
+To be added.
+
+## Setup
+
+To be added.
+
+## Main result
+
+To be added.
+
+## Intuition
+
+To be added.
+
+## Mathematical details
+
+To be added.
+
+## Common mistakes
+
+- To be added.
+
+## Key takeaway
+
+To be added.
+
+[← Back to MIT 18.100A](index.qmd)

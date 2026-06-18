@@ -9,11 +9,11 @@ Mathematics is the foundation of my study notes. This section currently focuses 
 ::: {.content-grid}
 
 ::: {.content-card}
-### Single Variable Calculus
+### Calculus
 
 Limits, continuity, derivatives, integrals, sequences, series, and applications.
 
-[Open Single Variable Calculus](single-variable-calculus/index.qmd)
+[Open Calculus](calculus/index.qmd)
 :::
 
 ::: {.content-card}

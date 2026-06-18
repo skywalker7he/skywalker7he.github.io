@@ -2,4 +2,18 @@
 title: "Real Analysis"
 ---
 
-This section contains my notes on rigorous calculus, including sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.
+This section contains my notes on rigorous calculus, including sets, sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.
+
+## Courses
+
+::: {.content-grid}
+
+::: {.content-card}
+### MIT 18.100A Real Analysis
+
+Study notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.
+
+[Open MIT 18.100A Notes](mit-18-100a-real-analysis/index.qmd)
+:::
+
+:::

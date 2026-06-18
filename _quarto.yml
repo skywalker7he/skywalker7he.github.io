@@ -1,9 +1,11 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - references/pdfs/*.pdf
 
 bibliography: references/references.bib
-csl: csl/vancouver.csl
+csl: csl/vancouver-no-collapse.csl
 
 website:
   title: "SkywalkerHe's Knowledge Fortress"
@@ -25,8 +27,8 @@ website:
         menu:
           - href: mathematics/index.qmd
             text: Overview
-          - href: mathematics/single-variable-calculus/index.qmd
-            text: Single Variable Calculus
+          - href: mathematics/calculus/index.qmd
+            text: Calculus
           - href: mathematics/real-analysis/index.qmd
             text: Real Analysis
 
@@ -59,6 +61,8 @@ format:
     code-tools: false
     smooth-scroll: true
     respect-user-color-scheme: true
+    citations-hover: false
+    link-citations: true
 
 execute:
   freeze: auto
