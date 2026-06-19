@@ -200,7 +200,28 @@
     "href": "mathematics/calculus/index.html",
     "title": "Calculus",
     "section": "",
-    "text": "This section contains my notes on\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This section contains my notes on calculus, differential calculus, and matrix differential calculus."
+  },
+  {
+    "objectID": "mathematics/calculus/index.html#courses-books",
+    "href": "mathematics/calculus/index.html#courses-books",
+    "title": "Calculus",
+    "section": "Courses / Books",
+    "text": "Courses / Books\n\n\n\nMatrix Differential Calculus with Applications in Statistics and Econometrics\n\nStudy notes based on Magnus and Neudecker’s matrix differential calculus book.\nOpen Matrix Differential Calculus Notes"
+  },
+  {
+    "objectID": "mathematics/calculus/matrix-differential-calculus/chapter1.html",
+    "href": "mathematics/calculus/matrix-differential-calculus/chapter1.html",
+    "title": "Chapter 1",
+    "section": "",
+    "text": "← Back to Matrix Differential Calculus"
+  },
+  {
+    "objectID": "mathematics/calculus/matrix-differential-calculus/chapter1.html#notes",
+    "href": "mathematics/calculus/matrix-differential-calculus/chapter1.html#notes",
+    "title": "Chapter 1",
+    "section": "Notes",
+    "text": "Notes\nTo be added."
   },
   {
     "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html",
@@ -1832,6 +1853,27 @@
     "title": "Mathematics",
     "section": "Sections",
     "text": "Sections\n\n\nCalculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
+  },
+  {
+    "objectID": "mathematics/calculus/matrix-differential-calculus/index.html",
+    "href": "mathematics/calculus/matrix-differential-calculus/index.html",
+    "title": "Matrix Differential Calculus",
+    "section": "",
+    "text": "Magnus JR, Neudecker H. Matrix Differential Calculus with Applications in Statistics and Econometrics. Rev ed. John Wiley & Sons; 1999."
+  },
+  {
+    "objectID": "mathematics/calculus/matrix-differential-calculus/index.html#reference",
+    "href": "mathematics/calculus/matrix-differential-calculus/index.html#reference",
+    "title": "Matrix Differential Calculus",
+    "section": "",
+    "text": "Magnus JR, Neudecker H. Matrix Differential Calculus with Applications in Statistics and Econometrics. Rev ed. John Wiley & Sons; 1999."
+  },
+  {
+    "objectID": "mathematics/calculus/matrix-differential-calculus/index.html#notes",
+    "href": "mathematics/calculus/matrix-differential-calculus/index.html#notes",
+    "title": "Matrix Differential Calculus",
+    "section": "Notes",
+    "text": "Notes\nI will add my notes by chapter.\n\nChapter 1"
   },
   {
     "objectID": "index.html",

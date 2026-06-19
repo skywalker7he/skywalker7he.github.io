@@ -1,0 +1,17 @@
+---
+title: "Matrix Differential Calculus"
+description: "Study notes based on Magnus and Neudecker's Matrix Differential Calculus with Applications in Statistics and Econometrics."
+date: "2026-06-18"
+categories: [Calculus, Matrix Differential Calculus, Matrix Calculus, Statistics, Econometrics]
+suppress-bibliography: true
+---
+
+## Reference
+
+Magnus JR, Neudecker H. [*Matrix Differential Calculus with Applications in Statistics and Econometrics*](../../../references/pdfs/magnus-neudecker-matrix-differential-calculus.pdf). Rev ed. John Wiley & Sons; 1999.
+
+## Notes
+
+I will add my notes by chapter.
+
+- [Chapter 1](chapter1.qmd)

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-18">
+<meta name="description" content="Study notes based on Magnus and Neudecker’s Matrix Differential Calculus with Applications in Statistics and Econometrics.">
 
-<title>Calculus – SkywalkerHe’s Knowledge Fortress</title>
+<title>Matrix Differential Calculus – SkywalkerHe’s Knowledge Fortress</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,27 +28,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-303746ecf1fe012f97e62d1349648592.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-303746ecf1fe012f97e62d1349648592.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-03f9807de618bff308c2425e29cd4db3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<link id="dynamic-favicon" rel="icon" type="image/png" href="../../images/logo-light.png?v=3">
+<link id="dynamic-favicon" rel="icon" type="image/png" href="../../../images/logo-light.png?v=3">
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const lightIcon = "/images/logo-light.png?v=3";
@@ -109,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -290,11 +292,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo.png" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
-    <img src="../../images/logo.png" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/logo.png" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
+    <img src="../../../images/logo.png" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">SkywalkerHe’s Knowledge Fortress</span>
     </a>
   </div>
@@ -305,7 +307,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -314,33 +316,33 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mathematics">    
         <li>
-    <a class="dropdown-item" href="../../mathematics/index.html">
+    <a class="dropdown-item" href="../../../mathematics/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../mathematics/calculus/index.html">
+    <a class="dropdown-item" href="../../../mathematics/calculus/index.html">
  <span class="dropdown-text">Calculus</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../mathematics/real-analysis/index.html">
+    <a class="dropdown-item" href="../../../mathematics/real-analysis/index.html">
  <span class="dropdown-text">Real Analysis</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../causal-inference/index.html"> 
+    <a class="nav-link" href="../../../causal-inference/index.html"> 
 <span class="menu-text">Causal Inference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../survival-analysis/index.html"> 
+    <a class="nav-link" href="../../../survival-analysis/index.html"> 
 <span class="menu-text">Survival Analysis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../machine-learning/index.html"> 
+    <a class="nav-link" href="../../../machine-learning/index.html"> 
 <span class="menu-text">Machine Learning</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -360,7 +362,8 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#courses-books" id="toc-courses-books" class="nav-link active" data-scroll-target="#courses-books">Courses / Books</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -370,14 +373,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Calculus</h1>
-</div>
+<h1 class="title">Matrix Differential Calculus</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Calculus</div>
+    <div class="quarto-category">Matrix Differential Calculus</div>
+    <div class="quarto-category">Matrix Calculus</div>
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">Econometrics</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Study notes based on Magnus and Neudecker’s Matrix Differential Calculus with Applications in Statistics and Econometrics.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 18, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -387,18 +408,16 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>This section contains my notes on calculus, differential calculus, and matrix differential calculus.</p>
-<section id="courses-books" class="level2">
-<h2 class="anchored" data-anchor-id="courses-books">Courses / Books</h2>
-<div class="content-grid">
-<div class="content-card">
-<div class="card-title">
-Matrix Differential Calculus with Applications in Statistics and Econometrics
-</div>
-<p>Study notes based on Magnus and Neudecker’s matrix differential calculus book.</p>
-<p><a href="../../mathematics/calculus/matrix-differential-calculus/index.html">Open Matrix Differential Calculus Notes</a></p>
-</div>
-</div>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Magnus JR, Neudecker H. <a href="../../../references/pdfs/magnus-neudecker-matrix-differential-calculus.pdf"><em>Matrix Differential Calculus with Applications in Statistics and Econometrics</em></a>. Rev ed.&nbsp;John Wiley &amp; Sons; 1999.</p>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>I will add my notes by chapter.</p>
+<ul>
+<li><a href="../../../mathematics/calculus/matrix-differential-calculus/chapter1.html">Chapter 1</a></li>
+</ul>
 
 
 </section>
@@ -785,5 +804,5 @@ Matrix Differential Calculus with Applications in Statistics and Econometrics
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -1,9 +1,19 @@
 ---
 title: "Calculus"
-listing:
-  contents: "*.qmd"
-  type: default
-  sort: "title"
 ---
 
-This section contains my notes on 
+This section contains my notes on calculus, differential calculus, and matrix differential calculus.
+
+## Courses / Books
+
+::: {.content-grid}
+
+::: {.content-card}
+<div class="card-title">Matrix Differential Calculus with Applications in Statistics and Econometrics</div>
+
+Study notes based on Magnus and Neudecker's matrix differential calculus book.
+
+[Open Matrix Differential Calculus Notes](matrix-differential-calculus/index.qmd)
+:::
+
+:::

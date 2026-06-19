@@ -1,0 +1,12 @@
+---
+title: "Chapter 1"
+description: "Study notes for Chapter 1 of Matrix Differential Calculus."
+date: "2026-06-18"
+categories: [Matrix Differential Calculus, Matrix Algebra]
+---
+
+[← Back to Matrix Differential Calculus](index.qmd)
+
+## Notes
+
+To be added.
