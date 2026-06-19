@@ -4,7 +4,7 @@ title: "Machine Learning"
 
 This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods.
 
-## Sections
+## Courses
 
 ::: {.content-grid}
 

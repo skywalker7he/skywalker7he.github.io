@@ -22,6 +22,10 @@ Supplemented by [Hammack’s *Book of Proof*](../../../references/pdfs/Book-of-P
 - [Lecture 3](lecture3.qmd)
 - [Lecture 4](lecture4.qmd)
 - [Lecture 5](lecture5.qmd)
+
+<details id="more-lectures" class="show-more-section">
+<summary>Show more lectures</summary>
+
 - [Lecture 6](lecture6.qmd)
 - [Lecture 7](lecture7.qmd)
 - [Lecture 8](lecture8.qmd)
@@ -42,6 +46,15 @@ Supplemented by [Hammack’s *Book of Proof*](../../../references/pdfs/Book-of-P
 - [Lecture 23](lecture23.qmd)
 - [Lecture 24](lecture24.qmd)
 - [Lecture 25](lecture25.qmd)
+
+<div class="fold-button-row">
+<button type="button" class="fold-back-btn"
+onclick="document.getElementById('more-lectures').open = false; document.getElementById('notes').scrollIntoView({behavior: 'smooth', block: 'start'});">
+Show fewer lectures
+</button>
+</div>
+
+</details>
 
 ## References
 

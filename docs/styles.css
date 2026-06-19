@@ -247,3 +247,102 @@ body.quarto-dark .profile-photo {
   background-color: #00c896;
   color: #111111;
 }
+
+/* Navbar theme: dark mode and light mode */
+
+/* Default / dark mode navbar */
+.navbar {
+  background-color: #050505;
+  border-bottom: 2px solid #c9a227;
+}
+
+.navbar-brand {
+  color: #f5e6b3;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  color: #ffd86b;
+}
+
+.navbar-nav .nav-link {
+  color: #f7f0dc;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd86b;
+}
+
+.navbar-nav .nav-link.active {
+  color: #00c896;
+}
+
+.navbar .dropdown-menu {
+  background-color: #111111;
+  border: 1px solid #c9a227;
+}
+
+.navbar .dropdown-item {
+  color: #f7f0dc;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #2a1f0a;
+  color: #ffd86b;
+}
+
+/* Light mode navbar */
+body.quarto-light .navbar {
+  background-color: #f8f1df;
+  border-bottom: 2px solid #c9a227;
+}
+
+body.quarto-light .navbar-brand {
+  color: #2a1f0a;
+}
+
+body.quarto-light .navbar-brand:hover {
+  color: #8a6a00;
+}
+
+body.quarto-light .navbar-nav .nav-link {
+  color: #2a1f0a;
+}
+
+body.quarto-light .navbar-nav .nav-link:hover {
+  color: #008c7a;
+}
+
+body.quarto-light .navbar-nav .nav-link.active {
+  color: #008c7a;
+}
+
+body.quarto-light .navbar .dropdown-menu {
+  background-color: #fffaf0;
+  border: 1px solid #c9a227;
+}
+
+body.quarto-light .navbar .dropdown-item {
+  color: #2a1f0a;
+}
+
+body.quarto-light .navbar .dropdown-item:hover {
+  background-color: #f1e4bf;
+  color: #008c7a;
+}
+
+/* Switch navbar logo by light/dark mode */
+
+.navbar-logo {
+  max-height: 32px;
+  width: auto;
+  border-radius: 4px;
+}
+
+body.quarto-light .navbar-logo {
+  content: url("images/logo-light.png");
+}
+
+body.quarto-dark .navbar-logo {
+  content: url("images/logo.png");
+}

@@ -739,7 +739,7 @@
     "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#notes",
     "title": "MIT 18.100A Real Analysis",
     "section": "Notes",
-    "text": "Notes\nSupplemented by Hammack’s Book of Proof, Cummings’ Proofs: A Long-Form Mathematics Textbook, and Cummings’ Real Analysis: A Long-Form Mathematics Textbook (1,2,3).\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\nLecture 21\nLecture 22\nLecture 23\nLecture 24\nLecture 25"
+    "text": "Notes\nSupplemented by Hammack’s Book of Proof, Cummings’ Proofs: A Long-Form Mathematics Textbook, and Cummings’ Real Analysis: A Long-Form Mathematics Textbook (1,2,3).\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\n\n\n\nShow more lectures\n\n\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\nLecture 21\nLecture 22\nLecture 23\nLecture 24\nLecture 25\n\n\n\nShow fewer lectures"
   },
   {
     "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#references",
@@ -1904,11 +1904,11 @@
     "text": "This section contains my study notes on machine learning, including supervised learning, classification, regression, model evaluation, tree-based methods, support vector machines, neural networks, and modern statistical learning methods."
   },
   {
-    "objectID": "machine-learning/index.html#sections",
-    "href": "machine-learning/index.html#sections",
+    "objectID": "machine-learning/index.html#courses",
+    "href": "machine-learning/index.html#courses",
     "title": "Machine Learning",
-    "section": "Sections",
-    "text": "Sections\n\n\nUCLA STATS M254: Statistical Methods in Computational Biology\nStudy notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.\nOpen UCLA STATS M254 Notes"
+    "section": "Courses",
+    "text": "Courses\n\n\nUCLA STATS M254: Statistical Methods in Computational Biology\nStudy notes on statistical and machine learning methods for computational biology, including high-dimensional biological data, genomic data analysis, classification, clustering, dimension reduction, and multiple testing.\nOpen UCLA STATS M254 Notes"
   },
   {
     "objectID": "machine-learning/stats-m254-computational-biology/lecture7.html#unsupervised-learning",

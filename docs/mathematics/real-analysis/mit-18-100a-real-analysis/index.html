@@ -54,7 +54,6 @@ div.csl-indent {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -97,6 +96,38 @@ div.csl-indent {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<link id="dynamic-favicon" rel="icon" type="image/png" href="../../../images/logo-light.png?v=3">
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const lightIcon = "/images/logo-light.png?v=3";
+  const darkIcon = "/images/logo.png?v=3";
+
+  function setFavicon() {
+    const isDark =
+      document.body.classList.contains("quarto-dark") ||
+      document.documentElement.classList.contains("quarto-dark") ||
+      document.body.getAttribute("data-bs-theme") === "dark" ||
+      document.documentElement.getAttribute("data-bs-theme") === "dark";
+
+    let link = document.querySelector("link#dynamic-favicon");
+    if (!link) {
+      link = document.createElement("link");
+      link.id = "dynamic-favicon";
+      link.rel = "icon";
+      link.type = "image/png";
+      document.head.appendChild(link);
+    }
+
+    link.href = isDark ? darkIcon : lightIcon;
+  }
+
+  setFavicon();
+
+  const observer = new MutationObserver(setFavicon);
+  observer.observe(document.documentElement, { attributes: true });
+  observer.observe(document.body, { attributes: true });
+});
+</script>
 
 
 <link rel="stylesheet" href="../../../styles.css">
@@ -281,8 +312,8 @@ div.csl-indent {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
-    <img src="../../../images/ChatGPT Image Jun 9, 2025, 01_47_04 PM.PNG" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
+    <img src="../../../images/logo.png" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo light-content">
+    <img src="../../../images/logo.png" alt="SkywalkerHe's Knowledge Fortress logo" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">SkywalkerHe’s Knowledge Fortress</span>
@@ -325,21 +356,10 @@ div.csl-indent {
     <a class="nav-link" href="../../../survival-analysis/index.html"> 
 <span class="menu-text">Survival Analysis</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-machine-learning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Machine Learning</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-machine-learning">    
-        <li>
-    <a class="dropdown-item" href="../../../machine-learning/index.html">
- <span class="dropdown-text">Overview</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../machine-learning/index.html"> 
+<span class="menu-text">Machine Learning</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../../machine-learning/stats-m254-computational-biology/index.html">
- <span class="dropdown-text">UCLA STATS M254</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
@@ -425,6 +445,12 @@ div.csl-indent {
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html">Lecture 3</a></li>
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html">Lecture 4</a></li>
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html">Lecture 5</a></li>
+</ul>
+<details id="more-lectures" class="show-more-section">
+<summary>
+Show more lectures
+</summary>
+<ul>
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html">Lecture 6</a></li>
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html">Lecture 7</a></li>
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html">Lecture 8</a></li>
@@ -446,6 +472,12 @@ div.csl-indent {
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html">Lecture 24</a></li>
 <li><a href="../../../mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html">Lecture 25</a></li>
 </ul>
+<div class="fold-button-row">
+<button type="button" class="fold-back-btn" onclick="document.getElementById('more-lectures').open = false; document.getElementById('notes').scrollIntoView({behavior: 'smooth', block: 'start'});">
+Show fewer lectures
+</button>
+</div>
+</details>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
