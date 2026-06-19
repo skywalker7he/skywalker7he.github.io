@@ -346,3 +346,11 @@ body.quarto-light .navbar-logo {
 body.quarto-dark .navbar-logo {
   content: url("images/logo.png");
 }
+
+.content-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}

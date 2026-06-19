@@ -9,7 +9,7 @@ This section contains my study notes on causal inference, including randomized e
 ::: {.content-grid}
 
 ::: {.content-card}
-### Duke STA 640: Causal Inference
+<div class="card-title">Duke STA 640: Causal Inference</div>
 
 Study notes based on Fan Li's causal inference course at Duke University.
 
@@ -17,7 +17,7 @@ Study notes based on Fan Li's causal inference course at Duke University.
 :::
 
 ::: {.content-card}
-### Stanford STATS 361: Causal Inference
+<div class="card-title">Stanford STATS 361: Causal Inference</div>
 
 Study notes based on Stefan Wager's causal inference course at Stanford University.
 
