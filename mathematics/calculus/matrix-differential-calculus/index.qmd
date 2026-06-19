@@ -8,7 +8,7 @@ suppress-bibliography: true
 
 ## Reference
 
-Magnus JR, Neudecker H. [*Matrix Differential Calculus with Applications in Statistics and Econometrics*](../../../references/pdfs/magnus-neudecker-matrix-differential-calculus.pdf). Rev ed. John Wiley & Sons; 1999.
+Magnus JR, Neudecker H. [Matrix Differential Calculus with Applications in Statistics and Econometrics](../../../references/pdfs/magnus-neudecker-matrix-differential-calculus.pdf). Rev ed. John Wiley & Sons; 1999.
 
 ## Notes
 
