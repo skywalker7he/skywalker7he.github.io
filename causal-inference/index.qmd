@@ -32,7 +32,7 @@ Study notes based on Stefan Wager's causal inference course at Stanford Universi
 ::: {.content-grid}
 
 ::: {.content-card}
-### Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference
+<div class="card-title">Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference</div>
 
 Study notes based on Susan Athey and Stefan Wager's course on machine learning and causal inference.
 
@@ -52,7 +52,8 @@ Show fewer courses
 
 ## Research Articles
 
-- [Moderation Analysis (Tang et al. 2009)](moderation-analysis.qmd)
+- [A General Framework of Moderation Analysis (Tang et al. 2009)](moderation-analysis.qmd)
+- [High-Order Multivariate Laplace Approximation for GLMMs (Raudenbush et al. 2000)](raudenbush-2000-laplace.qmd)
 
 <!--
 When you have more than three research-article notes, keep the first three above,

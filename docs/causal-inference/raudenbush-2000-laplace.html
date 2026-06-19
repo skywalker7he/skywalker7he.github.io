@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-18">
+<meta name="description" content="Study notes on high-order multivariate Laplace approximation for maximum likelihood estimation in generalized linear models with nested random effects.">
 
-<title>Causal Inference – SkywalkerHe’s Knowledge Fortress</title>
+<title>High-Order Multivariate Laplace Approximation for GLMMs (Raudenbush et al.&nbsp;2000) – SkywalkerHe's Knowledge Fortress</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -328,7 +330,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../causal-inference/index.html" aria-current="page"> 
+    <a class="nav-link" href="../causal-inference/index.html"> 
 <span class="menu-text">Causal Inference</span></a>
   </li>  
   <li class="nav-item">
@@ -360,8 +362,14 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#courses" id="toc-courses" class="nav-link active" data-scroll-target="#courses">Courses</a></li>
-  <li><a href="#research-articles" id="toc-research-articles" class="nav-link" data-scroll-target="#research-articles">Research Articles</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#key-ideas" id="toc-key-ideas" class="nav-link" data-scroll-target="#key-ideas">Key ideas</a></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#main-result" id="toc-main-result" class="nav-link" data-scroll-target="#main-result">Main result</a></li>
+  <li><a href="#mathematical-details" id="toc-mathematical-details" class="nav-link" data-scroll-target="#mathematical-details">Mathematical details</a></li>
+  <li><a href="#connection-to-my-dissertation-work" id="toc-connection-to-my-dissertation-work" class="nav-link" data-scroll-target="#connection-to-my-dissertation-work">Connection to my dissertation work</a></li>
+  <li><a href="#key-takeaway" id="toc-key-takeaway" class="nav-link" data-scroll-target="#key-takeaway">Key takeaway</a></li>
   </ul>
 </nav>
     </div>
@@ -371,14 +379,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Causal Inference</h1>
-</div>
+<h1 class="title">High-Order Multivariate Laplace Approximation for GLMMs (Raudenbush et al.&nbsp;2000)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Generalized Linear Mixed Models</div>
+    <div class="quarto-category">Laplace Approximation</div>
+    <div class="quarto-category">Random Effects</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Study notes on high-order multivariate Laplace approximation for maximum likelihood estimation in generalized linear models with nested random effects.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 18, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -388,64 +412,38 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>This section contains my study notes on causal inference, including randomized experiments, observational studies, propensity scores, matching, weighting, doubly robust estimation, instrumental variables, causal machine learning, and treatment effect heterogeneity.</p>
-<section id="courses" class="level2">
-<h2 class="anchored" data-anchor-id="courses">Courses</h2>
-<div class="content-grid">
-<div class="content-card">
-<div class="card-title">
-Duke STA 640: Causal Inference
-</div>
-<p>Study notes based on Fan Li’s causal inference course at Duke University.</p>
-<p><a href="../causal-inference/sta-640-causal-inference/index.html">Open Duke STA 640 Notes</a></p>
-</div>
-<div class="content-card">
-<div class="card-title">
-Stanford STATS 361: Causal Inference
-</div>
-<p>Study notes based on Stefan Wager’s causal inference course at Stanford University.</p>
-<p><a href="../causal-inference/stats-361-causal-inference/index.html">Open Stanford STATS 361 Notes</a></p>
-</div>
-</div>
-<details id="more-courses" class="show-more-section">
-<summary>
-Show more courses
-</summary>
-<div class="content-grid">
-<div class="content-card">
-<div class="card-title">
-Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference
-</div>
-<p>Study notes based on Susan Athey and Stefan Wager’s course on machine learning and causal inference.</p>
-<p><a href="../causal-inference/econ-293-mgtecon-634-machine-learning-and-causal-inference/index.html">Open Stanford ECON 293 / MGTECON 634 Notes</a></p>
-</div>
-</div>
-<div class="fold-button-row">
-<button type="button" class="fold-back-btn" onclick="document.getElementById('more-courses').open = false; document.getElementById('courses').scrollIntoView({behavior: 'smooth', block: 'start'});">
-Show fewer courses
-</button>
-</div>
-</details>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Raudenbush SW, Yang ML, Yosef M. Maximum likelihood for generalized linear models with nested random effects via high-order, multivariate Laplace approximation. J Comput Graph Stat. 2000;9(1):141-57. doi:10.1080/10618600.2000.10474870.</p>
 </section>
-<section id="research-articles" class="level2">
-<h2 class="anchored" data-anchor-id="research-articles">Research Articles</h2>
-<ul>
-<li><a href="../causal-inference/moderation-analysis.html">A General Framework of Moderation Analysis (Tang et al.&nbsp;2009)</a></li>
-<li><a href="../causal-inference/raudenbush-2000-laplace.html">High-Order Multivariate Laplace Approximation for GLMMs (Raudenbush et al.&nbsp;2000)</a></li>
-</ul>
-<!--
-When you have more than three research-article notes, keep the first three above,
-then put the rest inside this block:
-
-<details class="show-more-section">
-<summary>Show more research articles</summary>
-
-- [Article 4](article4.qmd)
-- [Article 5](article5.qmd)
-- [Article 6](article6.qmd)
-
-</details>
--->
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>These notes study high-order multivariate Laplace approximation for maximum likelihood estimation in generalized linear models with nested random effects.</p>
+<p>This paper is important for understanding likelihood approximation when the marginal likelihood involves integrals over random effects that are analytically intractable.</p>
+</section>
+<section id="key-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="key-ideas">Key ideas</h2>
+<p>To be added.</p>
+</section>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>To be added.</p>
+</section>
+<section id="main-result" class="level2">
+<h2 class="anchored" data-anchor-id="main-result">Main result</h2>
+<p>To be added.</p>
+</section>
+<section id="mathematical-details" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-details">Mathematical details</h2>
+<p>To be added.</p>
+</section>
+<section id="connection-to-my-dissertation-work" class="level2">
+<h2 class="anchored" data-anchor-id="connection-to-my-dissertation-work">Connection to my dissertation work</h2>
+<p>To be added.</p>
+</section>
+<section id="key-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaway">Key takeaway</h2>
+<p>To be added.</p>
 
 
 </section>

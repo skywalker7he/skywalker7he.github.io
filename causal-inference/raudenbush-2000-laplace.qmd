@@ -1,0 +1,41 @@
+---
+title: "High-Order Multivariate Laplace Approximation for GLMMs (Raudenbush et al. 2000)"
+description: "Study notes on high-order multivariate Laplace approximation for maximum likelihood estimation in generalized linear models with nested random effects."
+date: "2026-06-18"
+categories: [Generalized Linear Mixed Models, Laplace Approximation, Random Effects]
+suppress-bibliography: true
+---
+
+## Reference
+
+Raudenbush SW, Yang ML, Yosef M. Maximum likelihood for generalized linear models with nested random effects via high-order, multivariate Laplace approximation. J Comput Graph Stat. 2000;9(1):141-57. doi:10.1080/10618600.2000.10474870.
+
+## Motivation
+
+These notes study high-order multivariate Laplace approximation for maximum likelihood estimation in generalized linear models with nested random effects.
+
+This paper is important for understanding likelihood approximation when the marginal likelihood involves integrals over random effects that are analytically intractable.
+
+## Key ideas
+
+To be added.
+
+## Setup
+
+To be added.
+
+## Main result
+
+To be added.
+
+## Mathematical details
+
+To be added.
+
+## Connection to my dissertation work
+
+To be added.
+
+## Key takeaway
+
+To be added.
