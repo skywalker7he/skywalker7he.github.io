@@ -200,1510 +200,68 @@
     "href": "mathematics/calculus/index.html",
     "title": "Calculus",
     "section": "",
-    "text": "This section contains my notes on\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate of Change\n\n\nNotes from MIT OCW 18.01 Calculus on derivatives, slope, velocity, and rate of change.\n\n\n\n\n\nMay 1, 2026\n\n\n\n\n\nNo matching items"
+    "text": "This section contains my notes on\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "mathematics/index.html",
-    "href": "mathematics/index.html",
-    "title": "Mathematics",
-    "section": "",
-    "text": "Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis."
-  },
-  {
-    "objectID": "mathematics/index.html#sections",
-    "href": "mathematics/index.html#sections",
-    "title": "Mathematics",
-    "section": "Sections",
-    "text": "Sections\n\n\nCalculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html",
+    "title": "Lecture 04",
     "section": "",
     "text": "← Back to MIT 18.100A"
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#primary-source",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#primary-source",
+    "title": "Lecture 04",
     "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 14 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+    "text": "Primary source\nThese are my study notes for Lecture 04 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#motivation",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#motivation",
+    "title": "Lecture 04",
     "section": "Motivation",
     "text": "Motivation\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#setup",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#setup",
+    "title": "Lecture 04",
     "section": "Setup",
     "text": "Setup\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#main-result",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#main-result",
+    "title": "Lecture 04",
     "section": "Main result",
     "text": "Main result\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#intuition",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#intuition",
+    "title": "Lecture 04",
     "section": "Intuition",
     "text": "Intuition\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#mathematical-details",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#mathematical-details",
+    "title": "Lecture 04",
     "section": "Mathematical details",
     "text": "Mathematical details\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#common-mistakes",
-    "title": "Lecture 14",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#common-mistakes",
+    "title": "Lecture 04",
     "section": "Common mistakes",
     "text": "Common mistakes\n\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#key-takeaway",
-    "title": "Lecture 14",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html",
-    "title": "Lecture 05",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#primary-source",
-    "title": "Lecture 05",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 05 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#motivation",
-    "title": "Lecture 05",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#setup",
-    "title": "Lecture 05",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#main-result",
-    "title": "Lecture 05",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#intuition",
-    "title": "Lecture 05",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#mathematical-details",
-    "title": "Lecture 05",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#common-mistakes",
-    "title": "Lecture 05",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#key-takeaway",
-    "title": "Lecture 05",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html",
-    "title": "Lecture 17",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#primary-source",
-    "title": "Lecture 17",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 17 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#motivation",
-    "title": "Lecture 17",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#setup",
-    "title": "Lecture 17",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#main-result",
-    "title": "Lecture 17",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#intuition",
-    "title": "Lecture 17",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#mathematical-details",
-    "title": "Lecture 17",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#common-mistakes",
-    "title": "Lecture 17",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#key-takeaway",
-    "title": "Lecture 17",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html",
-    "title": "Lecture 06",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#primary-source",
-    "title": "Lecture 06",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 06 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#motivation",
-    "title": "Lecture 06",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#setup",
-    "title": "Lecture 06",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#main-result",
-    "title": "Lecture 06",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#intuition",
-    "title": "Lecture 06",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#mathematical-details",
-    "title": "Lecture 06",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#common-mistakes",
-    "title": "Lecture 06",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#key-takeaway",
-    "title": "Lecture 06",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html",
-    "title": "Lecture 12",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#primary-source",
-    "title": "Lecture 12",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 12 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#motivation",
-    "title": "Lecture 12",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#setup",
-    "title": "Lecture 12",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#main-result",
-    "title": "Lecture 12",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#intuition",
-    "title": "Lecture 12",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#mathematical-details",
-    "title": "Lecture 12",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#common-mistakes",
-    "title": "Lecture 12",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#key-takeaway",
-    "title": "Lecture 12",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html",
-    "title": "Lecture 03",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#primary-source",
-    "title": "Lecture 03",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 03 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#motivation",
-    "title": "Lecture 03",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#setup",
-    "title": "Lecture 03",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#main-result",
-    "title": "Lecture 03",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#intuition",
-    "title": "Lecture 03",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#mathematical-details",
-    "title": "Lecture 03",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#common-mistakes",
-    "title": "Lecture 03",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#key-takeaway",
-    "title": "Lecture 03",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html",
-    "title": "Lecture 11",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#primary-source",
-    "title": "Lecture 11",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 11 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#motivation",
-    "title": "Lecture 11",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#setup",
-    "title": "Lecture 11",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#main-result",
-    "title": "Lecture 11",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#intuition",
-    "title": "Lecture 11",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#mathematical-details",
-    "title": "Lecture 11",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#common-mistakes",
-    "title": "Lecture 11",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#key-takeaway",
-    "title": "Lecture 11",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html",
-    "title": "Lecture 21",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#primary-source",
-    "title": "Lecture 21",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 21 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#motivation",
-    "title": "Lecture 21",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#setup",
-    "title": "Lecture 21",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#main-result",
-    "title": "Lecture 21",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#intuition",
-    "title": "Lecture 21",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#mathematical-details",
-    "title": "Lecture 21",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#common-mistakes",
-    "title": "Lecture 21",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#key-takeaway",
-    "title": "Lecture 21",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html",
-    "title": "Lecture 20",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#primary-source",
-    "title": "Lecture 20",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 20 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#motivation",
-    "title": "Lecture 20",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#setup",
-    "title": "Lecture 20",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#main-result",
-    "title": "Lecture 20",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#intuition",
-    "title": "Lecture 20",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#mathematical-details",
-    "title": "Lecture 20",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#common-mistakes",
-    "title": "Lecture 20",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#key-takeaway",
-    "title": "Lecture 20",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html",
-    "title": "Lecture 23",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#primary-source",
-    "title": "Lecture 23",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 23 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#motivation",
-    "title": "Lecture 23",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#setup",
-    "title": "Lecture 23",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#main-result",
-    "title": "Lecture 23",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#intuition",
-    "title": "Lecture 23",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#mathematical-details",
-    "title": "Lecture 23",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#common-mistakes",
-    "title": "Lecture 23",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#key-takeaway",
-    "title": "Lecture 23",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html",
-    "title": "Lecture 18",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#primary-source",
-    "title": "Lecture 18",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 18 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#motivation",
-    "title": "Lecture 18",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#setup",
-    "title": "Lecture 18",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#main-result",
-    "title": "Lecture 18",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#intuition",
-    "title": "Lecture 18",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#mathematical-details",
-    "title": "Lecture 18",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#common-mistakes",
-    "title": "Lecture 18",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#key-takeaway",
-    "title": "Lecture 18",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html",
-    "title": "Lecture 25",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#primary-source",
-    "title": "Lecture 25",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 25 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#motivation",
-    "title": "Lecture 25",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#setup",
-    "title": "Lecture 25",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#main-result",
-    "title": "Lecture 25",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#intuition",
-    "title": "Lecture 25",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#mathematical-details",
-    "title": "Lecture 25",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#common-mistakes",
-    "title": "Lecture 25",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#key-takeaway",
-    "title": "Lecture 25",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html",
-    "title": "Lecture 09",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#primary-source",
-    "title": "Lecture 09",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 09 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#motivation",
-    "title": "Lecture 09",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#setup",
-    "title": "Lecture 09",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#main-result",
-    "title": "Lecture 09",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#intuition",
-    "title": "Lecture 09",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#mathematical-details",
-    "title": "Lecture 09",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#common-mistakes",
-    "title": "Lecture 09",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#key-takeaway",
-    "title": "Lecture 09",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/index.html",
-    "href": "mathematics/real-analysis/index.html",
-    "title": "Real Analysis",
-    "section": "",
-    "text": "This section contains my notes on rigorous calculus, including sets, sequences, limits, continuity, compactness, differentiation, integration, and metric spaces."
-  },
-  {
-    "objectID": "mathematics/real-analysis/index.html#courses",
-    "href": "mathematics/real-analysis/index.html#courses",
-    "title": "Real Analysis",
-    "section": "Courses",
-    "text": "Courses\n\n\nMIT 18.100A Real Analysis\nStudy notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.\nOpen MIT 18.100A Notes"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html",
-    "title": "Lecture 19",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#primary-source",
-    "title": "Lecture 19",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 19 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#motivation",
-    "title": "Lecture 19",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#setup",
-    "title": "Lecture 19",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#main-result",
-    "title": "Lecture 19",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#intuition",
-    "title": "Lecture 19",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#mathematical-details",
-    "title": "Lecture 19",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#common-mistakes",
-    "title": "Lecture 19",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#key-takeaway",
-    "title": "Lecture 19",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html",
-    "title": "Lecture 24",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#primary-source",
-    "title": "Lecture 24",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 24 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#motivation",
-    "title": "Lecture 24",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#setup",
-    "title": "Lecture 24",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#main-result",
-    "title": "Lecture 24",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#intuition",
-    "title": "Lecture 24",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#mathematical-details",
-    "title": "Lecture 24",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#common-mistakes",
-    "title": "Lecture 24",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#key-takeaway",
-    "title": "Lecture 24",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html",
-    "title": "Lecture 08",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#primary-source",
-    "title": "Lecture 08",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 08 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#motivation",
-    "title": "Lecture 08",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#setup",
-    "title": "Lecture 08",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#main-result",
-    "title": "Lecture 08",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#intuition",
-    "title": "Lecture 08",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#mathematical-details",
-    "title": "Lecture 08",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#common-mistakes",
-    "title": "Lecture 08",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#key-takeaway",
-    "title": "Lecture 08",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html",
-    "title": "Lecture 22",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#primary-source",
-    "title": "Lecture 22",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 22 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#motivation",
-    "title": "Lecture 22",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#setup",
-    "title": "Lecture 22",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#main-result",
-    "title": "Lecture 22",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#intuition",
-    "title": "Lecture 22",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#mathematical-details",
-    "title": "Lecture 22",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#common-mistakes",
-    "title": "Lecture 22",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#key-takeaway",
-    "title": "Lecture 22",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html",
-    "title": "MIT 18.100A Real Analysis",
-    "section": "",
-    "text": "These are my study notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.\n\nCourse page: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nLecture notes and readings: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/pages/lecture-notes-and-readings/\nLecture videos: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/video_galleries/video-lectures/"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#course-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#course-source",
-    "title": "MIT 18.100A Real Analysis",
-    "section": "",
-    "text": "These are my study notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.\n\nCourse page: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nLecture notes and readings: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/pages/lecture-notes-and-readings/\nLecture videos: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/video_galleries/video-lectures/"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#notes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#notes",
-    "title": "MIT 18.100A Real Analysis",
-    "section": "Notes",
-    "text": "Notes\nSupplemented by Hammack’s Book of Proof, Cummings’ Proofs: A Long-Form Mathematics Textbook, and Cummings’ Real Analysis: A Long-Form Mathematics Textbook (1,2,3).\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\n\n\n\nShow more lectures\n\n\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\nLecture 21\nLecture 22\nLecture 23\nLecture 24\nLecture 25\n\n\n\nShow fewer lectures"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#references",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#references",
-    "title": "MIT 18.100A Real Analysis",
-    "section": "References",
-    "text": "References\n\n\n1. Hammack R. Book of proof [Internet]. 3rd ed. Richard Hammack; 2018. Available from: https://richardhammack.github.io/BookOfProof/Main.pdf\n\n\n2. Cummings J. Proofs: A long-form mathematics textbook. Independently published; 2021.\n\n\n3. Cummings J. Real analysis: A long-form mathematics textbook. 2nd ed. Independently published; 2019.\n\n\n↑ Back to Notes"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html",
-    "title": "Lecture 10",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#primary-source",
-    "title": "Lecture 10",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 10 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#motivation",
-    "title": "Lecture 10",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#setup",
-    "title": "Lecture 10",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#main-result",
-    "title": "Lecture 10",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#intuition",
-    "title": "Lecture 10",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#mathematical-details",
-    "title": "Lecture 10",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#common-mistakes",
-    "title": "Lecture 10",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#key-takeaway",
-    "title": "Lecture 10",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html",
-    "title": "Lecture 01",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#primary-source",
-    "title": "Lecture 01",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 01 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#motivation",
-    "title": "Lecture 01",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#setup",
-    "title": "Lecture 01",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#main-result",
-    "title": "Lecture 01",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#intuition",
-    "title": "Lecture 01",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#mathematical-details",
-    "title": "Lecture 01",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#common-mistakes",
-    "title": "Lecture 01",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#key-takeaway",
-    "title": "Lecture 01",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html",
-    "title": "Lecture 13",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#primary-source",
-    "title": "Lecture 13",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 13 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#motivation",
-    "title": "Lecture 13",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#setup",
-    "title": "Lecture 13",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#main-result",
-    "title": "Lecture 13",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#intuition",
-    "title": "Lecture 13",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#mathematical-details",
-    "title": "Lecture 13",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#common-mistakes",
-    "title": "Lecture 13",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#key-takeaway",
-    "title": "Lecture 13",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html",
-    "title": "Lecture 02",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#primary-source",
-    "title": "Lecture 02",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 02 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#motivation",
-    "title": "Lecture 02",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#setup",
-    "title": "Lecture 02",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#main-result",
-    "title": "Lecture 02",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#intuition",
-    "title": "Lecture 02",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#mathematical-details",
-    "title": "Lecture 02",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#common-mistakes",
-    "title": "Lecture 02",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#key-takeaway",
-    "title": "Lecture 02",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html",
-    "title": "Lecture 16",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#primary-source",
-    "title": "Lecture 16",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 16 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#motivation",
-    "title": "Lecture 16",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#setup",
-    "title": "Lecture 16",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#main-result",
-    "title": "Lecture 16",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#intuition",
-    "title": "Lecture 16",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#mathematical-details",
-    "title": "Lecture 16",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#common-mistakes",
-    "title": "Lecture 16",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#key-takeaway",
-    "title": "Lecture 16",
-    "section": "Key takeaway",
-    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html",
-    "title": "Lecture 07",
-    "section": "",
-    "text": "← Back to MIT 18.100A"
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#primary-source",
-    "title": "Lecture 07",
-    "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 07 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#motivation",
-    "title": "Lecture 07",
-    "section": "Motivation",
-    "text": "Motivation\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#setup",
-    "title": "Lecture 07",
-    "section": "Setup",
-    "text": "Setup\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#main-result",
-    "title": "Lecture 07",
-    "section": "Main result",
-    "text": "Main result\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#intuition",
-    "title": "Lecture 07",
-    "section": "Intuition",
-    "text": "Intuition\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#mathematical-details",
-    "title": "Lecture 07",
-    "section": "Mathematical details",
-    "text": "Mathematical details\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#common-mistakes",
-    "title": "Lecture 07",
-    "section": "Common mistakes",
-    "text": "Common mistakes\n\nTo be added."
-  },
-  {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#key-takeaway",
-    "title": "Lecture 07",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#key-takeaway",
+    "title": "Lecture 04",
     "section": "Key takeaway",
     "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
   },
@@ -1771,144 +329,1509 @@
     "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html",
+    "title": "Lecture 07",
     "section": "",
     "text": "← Back to MIT 18.100A"
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#primary-source",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#primary-source",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#primary-source",
+    "title": "Lecture 07",
     "section": "Primary source",
-    "text": "Primary source\nThese are my study notes for Lecture 04 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+    "text": "Primary source\nThese are my study notes for Lecture 07 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#motivation",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#motivation",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#motivation",
+    "title": "Lecture 07",
     "section": "Motivation",
     "text": "Motivation\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#setup",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#setup",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#setup",
+    "title": "Lecture 07",
     "section": "Setup",
     "text": "Setup\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#main-result",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#main-result",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#main-result",
+    "title": "Lecture 07",
     "section": "Main result",
     "text": "Main result\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#intuition",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#intuition",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#intuition",
+    "title": "Lecture 07",
     "section": "Intuition",
     "text": "Intuition\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#mathematical-details",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#mathematical-details",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#mathematical-details",
+    "title": "Lecture 07",
     "section": "Mathematical details",
     "text": "Mathematical details\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#common-mistakes",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#common-mistakes",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#common-mistakes",
+    "title": "Lecture 07",
     "section": "Common mistakes",
     "text": "Common mistakes\n\nTo be added."
   },
   {
-    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#key-takeaway",
-    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture4.html#key-takeaway",
-    "title": "Lecture 04",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture7.html#key-takeaway",
+    "title": "Lecture 07",
     "section": "Key takeaway",
     "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html",
-    "href": "mathematics/calculus/rate-of-change.html",
-    "title": "Rate of Change",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html",
+    "title": "Lecture 16",
     "section": "",
-    "text": "These are my personal study notes based on MIT OpenCourseWare 18.01 Calculus.\nCourse page: MIT OCW 18.01 Calculus, Fall 2006."
+    "text": "← Back to MIT 18.100A"
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#source",
-    "href": "mathematics/calculus/rate-of-change.html#source",
-    "title": "Rate of Change",
-    "section": "",
-    "text": "These are my personal study notes based on MIT OpenCourseWare 18.01 Calculus.\nCourse page: MIT OCW 18.01 Calculus, Fall 2006."
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#primary-source",
+    "title": "Lecture 16",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 16 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#topics",
-    "href": "mathematics/calculus/rate-of-change.html#topics",
-    "title": "Rate of Change",
-    "section": "Topics",
-    "text": "Topics\n\nDerivatives\nSlope\nVelocity\nRate of change"
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#motivation",
+    "title": "Lecture 16",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#goal",
-    "href": "mathematics/calculus/rate-of-change.html#goal",
-    "title": "Rate of Change",
-    "section": "Goal",
-    "text": "Goal\nThe goal of this lecture is to understand the derivative as a mathematical tool for measuring instantaneous rate of change."
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#setup",
+    "title": "Lecture 16",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#big-picture",
-    "href": "mathematics/calculus/rate-of-change.html#big-picture",
-    "title": "Rate of Change",
-    "section": "Big picture",
-    "text": "Big picture\nIn calculus, we often start with a quantity that changes with respect to another variable.\nFor example:\n\nposition changes with respect to time;\ncost changes with respect to production quantity;\ntumor volume changes with respect to days;\nsurvival probability changes with respect to time.\n\nThe derivative gives us a way to measure how fast one quantity changes relative to another quantity."
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#main-result",
+    "title": "Lecture 16",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#average-rate-of-change",
-    "href": "mathematics/calculus/rate-of-change.html#average-rate-of-change",
-    "title": "Rate of Change",
-    "section": "Average rate of change",
-    "text": "Average rate of change\nSuppose \\(y = f(x)\\). The average rate of change of \\(f\\) from \\(x = a\\) to \\(x = b\\) is\n\\[\n\\frac{f(b) - f(a)}{b - a}.\n\\]\nGeometrically, this is the slope of the secant line connecting the two points\n\\[\n(a, f(a))\n\\quad \\text{and} \\quad\n(b, f(b)).\n\\]\nThe average rate of change measures how much the function changes over an interval."
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#intuition",
+    "title": "Lecture 16",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#instantaneous-rate-of-change",
-    "href": "mathematics/calculus/rate-of-change.html#instantaneous-rate-of-change",
-    "title": "Rate of Change",
-    "section": "Instantaneous rate of change",
-    "text": "Instantaneous rate of change\nTo define the instantaneous rate of change at \\(x = a\\), we let \\(b\\) move closer and closer to \\(a\\).\nEquivalently, write\n\\[\nb = a + h.\n\\]\nThen the average rate of change becomes\n\\[\n\\frac{f(a+h) - f(a)}{h}.\n\\]\nThe derivative is defined as the limit\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n\\frac{f(a+h) - f(a)}{h},\n\\]\nprovided this limit exists."
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#mathematical-details",
+    "title": "Lecture 16",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#interpretation",
-    "href": "mathematics/calculus/rate-of-change.html#interpretation",
-    "title": "Rate of Change",
-    "section": "Interpretation",
-    "text": "Interpretation\nThe derivative \\(f'(a)\\) measures the instantaneous rate of change of \\(f(x)\\) at \\(x = a\\).\nIt can be interpreted as:\n\nthe slope of the tangent line at \\(x = a\\);\nthe instantaneous velocity if \\(f(x)\\) represents position and \\(x\\) represents time;\nthe local linear rate at which \\(f(x)\\) changes near \\(x = a\\)."
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#common-mistakes",
+    "title": "Lecture 16",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
   },
   {
-    "objectID": "mathematics/calculus/rate-of-change.html#example",
-    "href": "mathematics/calculus/rate-of-change.html#example",
-    "title": "Rate of Change",
-    "section": "Example",
-    "text": "Example\nLet\n\\[\nf(x) = x^2.\n\\]\nThen\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n\\frac{(a+h)^2 - a^2}{h}.\n\\]\nExpand the numerator:\n\\[\n(a+h)^2 - a^2\n=\na^2 + 2ah + h^2 - a^2\n=\n2ah + h^2.\n\\]\nTherefore,\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n\\frac{2ah + h^2}{h}.\n\\]\nSince\n\\[\n\\frac{2ah + h^2}{h}\n=\n2a + h,\n\\]\nwe have\n\\[\nf'(a)\n=\n\\lim_{h \\to 0}\n(2a + h)\n=\n2a.\n\\]\nSo if \\(f(x) = x^2\\), then\n\\[\nf'(x) = 2x.\n\\]"
-  },
-  {
-    "objectID": "mathematics/calculus/rate-of-change.html#statistical-connection",
-    "href": "mathematics/calculus/rate-of-change.html#statistical-connection",
-    "title": "Rate of Change",
-    "section": "Statistical connection",
-    "text": "Statistical connection\nThis idea appears often in statistics.\nFor example, if \\(\\ell(\\theta)\\) is a log-likelihood function, then the derivative\n\\[\n\\frac{d}{d\\theta}\\ell(\\theta)\n\\]\nmeasures how fast the log-likelihood changes as the parameter \\(\\theta\\) changes.\nThe maximum likelihood estimator often satisfies the score equation\n\\[\n\\frac{d}{d\\theta}\\ell(\\theta) = 0.\n\\]\nSo understanding derivatives is foundational for likelihood theory, optimization, regression, and asymptotic statistics."
-  },
-  {
-    "objectID": "mathematics/calculus/rate-of-change.html#key-takeaway",
-    "href": "mathematics/calculus/rate-of-change.html#key-takeaway",
-    "title": "Rate of Change",
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture16.html#key-takeaway",
+    "title": "Lecture 16",
     "section": "Key takeaway",
-    "text": "Key takeaway\nA derivative is the limit of average rates of change. It measures the instantaneous rate of change of a function and gives the slope of the tangent line."
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html",
+    "title": "Lecture 02",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#primary-source",
+    "title": "Lecture 02",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 02 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#motivation",
+    "title": "Lecture 02",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#setup",
+    "title": "Lecture 02",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#main-result",
+    "title": "Lecture 02",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#intuition",
+    "title": "Lecture 02",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#mathematical-details",
+    "title": "Lecture 02",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#common-mistakes",
+    "title": "Lecture 02",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture2.html#key-takeaway",
+    "title": "Lecture 02",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html",
+    "title": "Lecture 13",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#primary-source",
+    "title": "Lecture 13",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 13 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#motivation",
+    "title": "Lecture 13",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#setup",
+    "title": "Lecture 13",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#main-result",
+    "title": "Lecture 13",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#intuition",
+    "title": "Lecture 13",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#mathematical-details",
+    "title": "Lecture 13",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#common-mistakes",
+    "title": "Lecture 13",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture13.html#key-takeaway",
+    "title": "Lecture 13",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#primary-source",
+    "title": "Lecture 01",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 01 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#motivation",
+    "title": "Lecture 01",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#setup",
+    "title": "Lecture 01",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#main-result",
+    "title": "Lecture 01",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#intuition",
+    "title": "Lecture 01",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#mathematical-details",
+    "title": "Lecture 01",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#common-mistakes",
+    "title": "Lecture 01",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture1.html#key-takeaway",
+    "title": "Lecture 01",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html",
+    "title": "Lecture 10",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#primary-source",
+    "title": "Lecture 10",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 10 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#motivation",
+    "title": "Lecture 10",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#setup",
+    "title": "Lecture 10",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#main-result",
+    "title": "Lecture 10",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#intuition",
+    "title": "Lecture 10",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#mathematical-details",
+    "title": "Lecture 10",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#common-mistakes",
+    "title": "Lecture 10",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture10.html#key-takeaway",
+    "title": "Lecture 10",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html",
+    "title": "MIT 18.100A Real Analysis",
+    "section": "",
+    "text": "These are my study notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.\n\nCourse page: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nLecture notes and readings: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/pages/lecture-notes-and-readings/\nLecture videos: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/video_galleries/video-lectures/"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#course-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#course-source",
+    "title": "MIT 18.100A Real Analysis",
+    "section": "",
+    "text": "These are my study notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.\n\nCourse page: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nLecture notes and readings: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/pages/lecture-notes-and-readings/\nLecture videos: https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/video_galleries/video-lectures/"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#notes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#notes",
+    "title": "MIT 18.100A Real Analysis",
+    "section": "Notes",
+    "text": "Notes\nSupplemented by Hammack’s Book of Proof, Cummings’ Proofs: A Long-Form Mathematics Textbook, and Cummings’ Real Analysis: A Long-Form Mathematics Textbook (1,2,3).\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\n\n\n\nShow more lectures\n\n\nLecture 6\nLecture 7\nLecture 8\nLecture 9\nLecture 10\nLecture 11\nLecture 12\nLecture 13\nLecture 14\nLecture 15\nLecture 16\nLecture 17\nLecture 18\nLecture 19\nLecture 20\nLecture 21\nLecture 22\nLecture 23\nLecture 24\nLecture 25\n\n\n\nShow fewer lectures"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#references",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/index.html#references",
+    "title": "MIT 18.100A Real Analysis",
+    "section": "References",
+    "text": "References\n\n\n1. Hammack R. Book of proof [Internet]. 3rd ed. Richard Hammack; 2018. Available from: https://richardhammack.github.io/BookOfProof/Main.pdf\n\n\n2. Cummings J. Proofs: A long-form mathematics textbook. Independently published; 2021.\n\n\n3. Cummings J. Real analysis: A long-form mathematics textbook. 2nd ed. Independently published; 2019.\n\n\n↑ Back to Notes"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html",
+    "title": "Lecture 22",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#primary-source",
+    "title": "Lecture 22",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 22 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#motivation",
+    "title": "Lecture 22",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#setup",
+    "title": "Lecture 22",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#main-result",
+    "title": "Lecture 22",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#intuition",
+    "title": "Lecture 22",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#mathematical-details",
+    "title": "Lecture 22",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#common-mistakes",
+    "title": "Lecture 22",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture22.html#key-takeaway",
+    "title": "Lecture 22",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html",
+    "title": "Lecture 08",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#primary-source",
+    "title": "Lecture 08",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 08 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#motivation",
+    "title": "Lecture 08",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#setup",
+    "title": "Lecture 08",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#main-result",
+    "title": "Lecture 08",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#intuition",
+    "title": "Lecture 08",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#mathematical-details",
+    "title": "Lecture 08",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#common-mistakes",
+    "title": "Lecture 08",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture8.html#key-takeaway",
+    "title": "Lecture 08",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html",
+    "title": "Lecture 24",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#primary-source",
+    "title": "Lecture 24",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 24 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#motivation",
+    "title": "Lecture 24",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#setup",
+    "title": "Lecture 24",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#main-result",
+    "title": "Lecture 24",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#intuition",
+    "title": "Lecture 24",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#mathematical-details",
+    "title": "Lecture 24",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#common-mistakes",
+    "title": "Lecture 24",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture24.html#key-takeaway",
+    "title": "Lecture 24",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html",
+    "title": "Lecture 19",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#primary-source",
+    "title": "Lecture 19",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 19 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#motivation",
+    "title": "Lecture 19",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#setup",
+    "title": "Lecture 19",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#main-result",
+    "title": "Lecture 19",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#intuition",
+    "title": "Lecture 19",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#mathematical-details",
+    "title": "Lecture 19",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#common-mistakes",
+    "title": "Lecture 19",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture19.html#key-takeaway",
+    "title": "Lecture 19",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/index.html",
+    "href": "mathematics/real-analysis/index.html",
+    "title": "Real Analysis",
+    "section": "",
+    "text": "This section contains my notes on rigorous calculus, including sets, sequences, limits, continuity, compactness, differentiation, integration, and metric spaces."
+  },
+  {
+    "objectID": "mathematics/real-analysis/index.html#courses",
+    "href": "mathematics/real-analysis/index.html#courses",
+    "title": "Real Analysis",
+    "section": "Courses",
+    "text": "Courses\n\n\nMIT 18.100A Real Analysis\nStudy notes based on MIT OpenCourseWare 18.100A Real Analysis, Fall 2020.\nOpen MIT 18.100A Notes"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html",
+    "title": "Lecture 09",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#primary-source",
+    "title": "Lecture 09",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 09 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#motivation",
+    "title": "Lecture 09",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#setup",
+    "title": "Lecture 09",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#main-result",
+    "title": "Lecture 09",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#intuition",
+    "title": "Lecture 09",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#mathematical-details",
+    "title": "Lecture 09",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#common-mistakes",
+    "title": "Lecture 09",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture9.html#key-takeaway",
+    "title": "Lecture 09",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html",
+    "title": "Lecture 25",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#primary-source",
+    "title": "Lecture 25",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 25 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#motivation",
+    "title": "Lecture 25",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#setup",
+    "title": "Lecture 25",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#main-result",
+    "title": "Lecture 25",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#intuition",
+    "title": "Lecture 25",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#mathematical-details",
+    "title": "Lecture 25",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#common-mistakes",
+    "title": "Lecture 25",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture25.html#key-takeaway",
+    "title": "Lecture 25",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#primary-source",
+    "title": "Lecture 18",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 18 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#motivation",
+    "title": "Lecture 18",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#setup",
+    "title": "Lecture 18",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#main-result",
+    "title": "Lecture 18",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#intuition",
+    "title": "Lecture 18",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#mathematical-details",
+    "title": "Lecture 18",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#common-mistakes",
+    "title": "Lecture 18",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture18.html#key-takeaway",
+    "title": "Lecture 18",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html",
+    "title": "Lecture 23",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#primary-source",
+    "title": "Lecture 23",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 23 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#motivation",
+    "title": "Lecture 23",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#setup",
+    "title": "Lecture 23",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#main-result",
+    "title": "Lecture 23",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#intuition",
+    "title": "Lecture 23",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#mathematical-details",
+    "title": "Lecture 23",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#common-mistakes",
+    "title": "Lecture 23",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture23.html#key-takeaway",
+    "title": "Lecture 23",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html",
+    "title": "Lecture 20",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#primary-source",
+    "title": "Lecture 20",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 20 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#motivation",
+    "title": "Lecture 20",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#setup",
+    "title": "Lecture 20",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#main-result",
+    "title": "Lecture 20",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#intuition",
+    "title": "Lecture 20",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#mathematical-details",
+    "title": "Lecture 20",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#common-mistakes",
+    "title": "Lecture 20",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture20.html#key-takeaway",
+    "title": "Lecture 20",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html",
+    "title": "Lecture 21",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#primary-source",
+    "title": "Lecture 21",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 21 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#motivation",
+    "title": "Lecture 21",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#setup",
+    "title": "Lecture 21",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#main-result",
+    "title": "Lecture 21",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#intuition",
+    "title": "Lecture 21",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#mathematical-details",
+    "title": "Lecture 21",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#common-mistakes",
+    "title": "Lecture 21",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture21.html#key-takeaway",
+    "title": "Lecture 21",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html",
+    "title": "Lecture 11",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#primary-source",
+    "title": "Lecture 11",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 11 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#motivation",
+    "title": "Lecture 11",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#setup",
+    "title": "Lecture 11",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#main-result",
+    "title": "Lecture 11",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#intuition",
+    "title": "Lecture 11",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#mathematical-details",
+    "title": "Lecture 11",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#common-mistakes",
+    "title": "Lecture 11",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture11.html#key-takeaway",
+    "title": "Lecture 11",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html",
+    "title": "Lecture 03",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#primary-source",
+    "title": "Lecture 03",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 03 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#motivation",
+    "title": "Lecture 03",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#setup",
+    "title": "Lecture 03",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#main-result",
+    "title": "Lecture 03",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#intuition",
+    "title": "Lecture 03",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#mathematical-details",
+    "title": "Lecture 03",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#common-mistakes",
+    "title": "Lecture 03",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture3.html#key-takeaway",
+    "title": "Lecture 03",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html",
+    "title": "Lecture 12",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#primary-source",
+    "title": "Lecture 12",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 12 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#motivation",
+    "title": "Lecture 12",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#setup",
+    "title": "Lecture 12",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#main-result",
+    "title": "Lecture 12",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#intuition",
+    "title": "Lecture 12",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#mathematical-details",
+    "title": "Lecture 12",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#common-mistakes",
+    "title": "Lecture 12",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture12.html#key-takeaway",
+    "title": "Lecture 12",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html",
+    "title": "Lecture 06",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#primary-source",
+    "title": "Lecture 06",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 06 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#motivation",
+    "title": "Lecture 06",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#setup",
+    "title": "Lecture 06",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#main-result",
+    "title": "Lecture 06",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#intuition",
+    "title": "Lecture 06",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#mathematical-details",
+    "title": "Lecture 06",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#common-mistakes",
+    "title": "Lecture 06",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture6.html#key-takeaway",
+    "title": "Lecture 06",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html",
+    "title": "Lecture 17",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#primary-source",
+    "title": "Lecture 17",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 17 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#motivation",
+    "title": "Lecture 17",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#setup",
+    "title": "Lecture 17",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#main-result",
+    "title": "Lecture 17",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#intuition",
+    "title": "Lecture 17",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#mathematical-details",
+    "title": "Lecture 17",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#common-mistakes",
+    "title": "Lecture 17",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture17.html#key-takeaway",
+    "title": "Lecture 17",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html",
+    "title": "Lecture 05",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#primary-source",
+    "title": "Lecture 05",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 05 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#motivation",
+    "title": "Lecture 05",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#setup",
+    "title": "Lecture 05",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#main-result",
+    "title": "Lecture 05",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#intuition",
+    "title": "Lecture 05",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#mathematical-details",
+    "title": "Lecture 05",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#common-mistakes",
+    "title": "Lecture 05",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture5.html#key-takeaway",
+    "title": "Lecture 05",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html",
+    "title": "Lecture 14",
+    "section": "",
+    "text": "← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#primary-source",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#primary-source",
+    "title": "Lecture 14",
+    "section": "Primary source",
+    "text": "Primary source\nThese are my study notes for Lecture 14 of MIT OpenCourseWare 18.100A Real Analysis, Fall 2020."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#motivation",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#motivation",
+    "title": "Lecture 14",
+    "section": "Motivation",
+    "text": "Motivation\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#setup",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#setup",
+    "title": "Lecture 14",
+    "section": "Setup",
+    "text": "Setup\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#main-result",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#main-result",
+    "title": "Lecture 14",
+    "section": "Main result",
+    "text": "Main result\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#intuition",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#intuition",
+    "title": "Lecture 14",
+    "section": "Intuition",
+    "text": "Intuition\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#mathematical-details",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#mathematical-details",
+    "title": "Lecture 14",
+    "section": "Mathematical details",
+    "text": "Mathematical details\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#common-mistakes",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#common-mistakes",
+    "title": "Lecture 14",
+    "section": "Common mistakes",
+    "text": "Common mistakes\n\nTo be added."
+  },
+  {
+    "objectID": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#key-takeaway",
+    "href": "mathematics/real-analysis/mit-18-100a-real-analysis/lecture14.html#key-takeaway",
+    "title": "Lecture 14",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nTo be added.\n← Back to MIT 18.100A"
+  },
+  {
+    "objectID": "mathematics/index.html",
+    "href": "mathematics/index.html",
+    "title": "Mathematics",
+    "section": "",
+    "text": "Mathematics is the foundation of my study notes. This section currently focuses on single variable calculus and real analysis."
+  },
+  {
+    "objectID": "mathematics/index.html#sections",
+    "href": "mathematics/index.html#sections",
+    "title": "Mathematics",
+    "section": "Sections",
+    "text": "Sections\n\n\nCalculus\nLimits, continuity, derivatives, integrals, sequences, series, and applications.\nOpen Calculus\n\n\nReal Analysis\nRigorous treatment of sequences, limits, continuity, compactness, differentiation, integration, and metric spaces.\nOpen Real Analysis"
   },
   {
     "objectID": "index.html",
