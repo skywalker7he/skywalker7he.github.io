@@ -8,7 +8,7 @@ suppress-bibliography: true
 
 ## Reference
 
-Sun X, Shin Y, Lafata JE, Raudenbush SW. [Variability in causal effects and noncompliance in a multisite trial: a bivariate hierarchical generalized random coefficients model for a binary outcome](../references/pdfs/sun-2024-multisite-noncompliance.pdf). *Stat Med.* 2024;43:5353-65. doi:10.1002/sim.10229.
+Sun X, Shin Y, Lafata JE, Raudenbush SW. Variability in causal effects and noncompliance in a multisite trial: a bivariate hierarchical generalized random coefficients model for a binary outcome. Stat Med. 2024;43:5353-65. doi:10.1002/sim.10229.
 
 ## Why I am studying this paper
 
