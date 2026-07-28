@@ -8,7 +8,8 @@ suppress-bibliography: true
 
 ## Reference
 
-Sun X, Shin Y, Lafata JE, Raudenbush SW. Variability in causal effects and noncompliance in a multisite trial: a bivariate hierarchical generalized random coefficients model for a binary outcome. Stat Med. 2024;43:5353-65. doi:10.1002/sim.10229.
+Raudenbush SW, Yang ML, Yosef M. [Maximum likelihood for generalized linear models with nested random effects via high-order, multivariate Laplace approximation](../references/pdfs/raudenbush-2000-laplace.pdf). *J Comput Graph Stat.* 2000;9(1):141-57. [doi:10.1080/10618600.2000.10474870](https://doi.org/10.1080/10618600.2000.10474870).
+
 
 ## Why I am studying this paper
 
