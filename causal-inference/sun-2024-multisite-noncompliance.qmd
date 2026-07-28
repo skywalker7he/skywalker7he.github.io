@@ -1,0 +1,55 @@
+---
+title: "Variability in Causal Effects and Noncompliance in a Multisite Trial (Sun et al. 2024)"
+description: "Study notes on site-specific causal effects, one-sided noncompliance, shared random effects, and maximum likelihood estimation in multisite randomized trials."
+date: "2026-07-28"
+categories: [Causal Inference, Multisite Trials, Noncompliance, CACE, Generalized Linear Mixed Models]
+suppress-bibliography: true
+---
+
+## Reference
+
+Sun X, Shin Y, Lafata JE, Raudenbush SW. [Variability in causal effects and noncompliance in a multisite trial: a bivariate hierarchical generalized random coefficients model for a binary outcome](../references/pdfs/sun-2024-multisite-noncompliance.pdf). *Stat Med.* 2024;43:5353-65. doi:10.1002/sim.10229.
+
+## Why I am studying this paper
+
+To be added.
+
+## Study goals
+
+- Understand how noncompliance is represented as partially observed compliance status.
+- Understand the definition and estimation of site-speific complier average causal effects.
+- Understand the bivariate hierarchical generalized random-coefficients model.
+- Understand the shared random-effects structure.
+- Understand maximum likelihood estimation using adaptive Gauss-Hermite quadrature.
+
+## Causal estimands and assumptions
+
+To be added.
+
+## Outcome and compliance models
+
+To be added.
+
+## Observed-data likelihood
+
+To be added.
+
+## Shared random effects
+
+To be added.
+
+## Maximum likelihood estimation
+
+To be added.
+
+## Data application
+
+To be added.
+
+## Simulation study
+
+To be added.
+
+## My takeaways
+
+To be added.

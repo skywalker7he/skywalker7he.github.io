@@ -54,6 +54,7 @@ Show fewer courses
 
 - [A General Framework of Moderation Analysis (Tang et al. 2009)](moderation-analysis.qmd)
 - [High-Order Multivariate Laplace Approximation for GLMMs (Raudenbush et al. 2000)](raudenbush-2000-laplace.qmd)
+- [Variability in Causal Effects and Noncompliance in a Multisite Trial (Sun et al. 2024)](sun-2024-multisite-noncompliance.qmd)
 
 <!--
 When you have more than three research-article notes, keep the first three above,

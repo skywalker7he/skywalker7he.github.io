@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-28">
+<meta name="description" content="Study notes on site-specific causal effects, one-sided noncompliance, shared random effects, and maximum likelihood estimation in multisite randomized trials.">
 
-<title>Causal Inference – SkywalkerHe’s Knowledge Fortress</title>
+<title>Variability in Causal Effects and Noncompliance in a Multisite Trial (Sun et al.&nbsp;2024) – SkywalkerHe's Knowledge Fortress</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -328,7 +330,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../causal-inference/index.html" aria-current="page"> 
+    <a class="nav-link" href="../causal-inference/index.html"> 
 <span class="menu-text">Causal Inference</span></a>
   </li>  
   <li class="nav-item">
@@ -360,8 +362,17 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#courses" id="toc-courses" class="nav-link active" data-scroll-target="#courses">Courses</a></li>
-  <li><a href="#research-articles" id="toc-research-articles" class="nav-link" data-scroll-target="#research-articles">Research Articles</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference</a></li>
+  <li><a href="#why-i-am-studying-this-paper" id="toc-why-i-am-studying-this-paper" class="nav-link" data-scroll-target="#why-i-am-studying-this-paper">Why I am studying this paper</a></li>
+  <li><a href="#study-goals" id="toc-study-goals" class="nav-link" data-scroll-target="#study-goals">Study goals</a></li>
+  <li><a href="#causal-estimands-and-assumptions" id="toc-causal-estimands-and-assumptions" class="nav-link" data-scroll-target="#causal-estimands-and-assumptions">Causal estimands and assumptions</a></li>
+  <li><a href="#outcome-and-compliance-models" id="toc-outcome-and-compliance-models" class="nav-link" data-scroll-target="#outcome-and-compliance-models">Outcome and compliance models</a></li>
+  <li><a href="#observed-data-likelihood" id="toc-observed-data-likelihood" class="nav-link" data-scroll-target="#observed-data-likelihood">Observed-data likelihood</a></li>
+  <li><a href="#shared-random-effects" id="toc-shared-random-effects" class="nav-link" data-scroll-target="#shared-random-effects">Shared random effects</a></li>
+  <li><a href="#maximum-likelihood-estimation" id="toc-maximum-likelihood-estimation" class="nav-link" data-scroll-target="#maximum-likelihood-estimation">Maximum likelihood estimation</a></li>
+  <li><a href="#data-application" id="toc-data-application" class="nav-link" data-scroll-target="#data-application">Data application</a></li>
+  <li><a href="#simulation-study" id="toc-simulation-study" class="nav-link" data-scroll-target="#simulation-study">Simulation study</a></li>
+  <li><a href="#my-takeaways" id="toc-my-takeaways" class="nav-link" data-scroll-target="#my-takeaways">My takeaways</a></li>
   </ul>
 </nav>
     </div>
@@ -371,14 +382,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Causal Inference</h1>
-</div>
+<h1 class="title">Variability in Causal Effects and Noncompliance in a Multisite Trial (Sun et al.&nbsp;2024)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Causal Inference</div>
+    <div class="quarto-category">Multisite Trials</div>
+    <div class="quarto-category">Noncompliance</div>
+    <div class="quarto-category">CACE</div>
+    <div class="quarto-category">Generalized Linear Mixed Models</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Study notes on site-specific causal effects, one-sided noncompliance, shared random effects, and maximum likelihood estimation in multisite randomized trials.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 28, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -388,65 +417,55 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>This section contains my study notes on causal inference, including randomized experiments, observational studies, propensity scores, matching, weighting, doubly robust estimation, instrumental variables, causal machine learning, and treatment effect heterogeneity.</p>
-<section id="courses" class="level2">
-<h2 class="anchored" data-anchor-id="courses">Courses</h2>
-<div class="content-grid">
-<div class="content-card">
-<div class="card-title">
-Duke STA 640: Causal Inference
-</div>
-<p>Study notes based on Fan Li’s causal inference course at Duke University.</p>
-<p><a href="../causal-inference/sta-640-causal-inference/index.html">Open Duke STA 640 Notes</a></p>
-</div>
-<div class="content-card">
-<div class="card-title">
-Stanford STATS 361: Causal Inference
-</div>
-<p>Study notes based on Stefan Wager’s causal inference course at Stanford University.</p>
-<p><a href="../causal-inference/stats-361-causal-inference/index.html">Open Stanford STATS 361 Notes</a></p>
-</div>
-</div>
-<details id="more-courses" class="show-more-section">
-<summary>
-Show more courses
-</summary>
-<div class="content-grid">
-<div class="content-card">
-<div class="card-title">
-Stanford ECON 293 / MGTECON 634: Machine Learning and Causal Inference
-</div>
-<p>Study notes based on Susan Athey and Stefan Wager’s course on machine learning and causal inference.</p>
-<p><a href="../causal-inference/econ-293-mgtecon-634-machine-learning-and-causal-inference/index.html">Open Stanford ECON 293 / MGTECON 634 Notes</a></p>
-</div>
-</div>
-<div class="fold-button-row">
-<button type="button" class="fold-back-btn" onclick="document.getElementById('more-courses').open = false; document.getElementById('courses').scrollIntoView({behavior: 'smooth', block: 'start'});">
-Show fewer courses
-</button>
-</div>
-</details>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Sun X, Shin Y, Lafata JE, Raudenbush SW. <a href="../references/pdfs/sun-2024-multisite-noncompliance.pdf">Variability in causal effects and noncompliance in a multisite trial: a bivariate hierarchical generalized random coefficients model for a binary outcome</a>. <em>Stat Med.</em> 2024;43:5353-65. doi:10.1002/sim.10229.</p>
 </section>
-<section id="research-articles" class="level2">
-<h2 class="anchored" data-anchor-id="research-articles">Research Articles</h2>
+<section id="why-i-am-studying-this-paper" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-am-studying-this-paper">Why I am studying this paper</h2>
+<p>To be added.</p>
+</section>
+<section id="study-goals" class="level2">
+<h2 class="anchored" data-anchor-id="study-goals">Study goals</h2>
 <ul>
-<li><a href="../causal-inference/moderation-analysis.html">A General Framework of Moderation Analysis (Tang et al.&nbsp;2009)</a></li>
-<li><a href="../causal-inference/raudenbush-2000-laplace.html">High-Order Multivariate Laplace Approximation for GLMMs (Raudenbush et al.&nbsp;2000)</a></li>
-<li><a href="../causal-inference/sun-2024-multisite-noncompliance.html">Variability in Causal Effects and Noncompliance in a Multisite Trial (Sun et al.&nbsp;2024)</a></li>
+<li>Understand how noncompliance is represented as partially observed compliance status.</li>
+<li>Understand the definition and estimation of site-speific complier average causal effects.</li>
+<li>Understand the bivariate hierarchical generalized random-coefficients model.</li>
+<li>Understand the shared random-effects structure.</li>
+<li>Understand maximum likelihood estimation using adaptive Gauss-Hermite quadrature.</li>
 </ul>
-<!--
-When you have more than three research-article notes, keep the first three above,
-then put the rest inside this block:
-
-<details class="show-more-section">
-<summary>Show more research articles</summary>
-
-- [Article 4](article4.qmd)
-- [Article 5](article5.qmd)
-- [Article 6](article6.qmd)
-
-</details>
--->
+</section>
+<section id="causal-estimands-and-assumptions" class="level2">
+<h2 class="anchored" data-anchor-id="causal-estimands-and-assumptions">Causal estimands and assumptions</h2>
+<p>To be added.</p>
+</section>
+<section id="outcome-and-compliance-models" class="level2">
+<h2 class="anchored" data-anchor-id="outcome-and-compliance-models">Outcome and compliance models</h2>
+<p>To be added.</p>
+</section>
+<section id="observed-data-likelihood" class="level2">
+<h2 class="anchored" data-anchor-id="observed-data-likelihood">Observed-data likelihood</h2>
+<p>To be added.</p>
+</section>
+<section id="shared-random-effects" class="level2">
+<h2 class="anchored" data-anchor-id="shared-random-effects">Shared random effects</h2>
+<p>To be added.</p>
+</section>
+<section id="maximum-likelihood-estimation" class="level2">
+<h2 class="anchored" data-anchor-id="maximum-likelihood-estimation">Maximum likelihood estimation</h2>
+<p>To be added.</p>
+</section>
+<section id="data-application" class="level2">
+<h2 class="anchored" data-anchor-id="data-application">Data application</h2>
+<p>To be added.</p>
+</section>
+<section id="simulation-study" class="level2">
+<h2 class="anchored" data-anchor-id="simulation-study">Simulation study</h2>
+<p>To be added.</p>
+</section>
+<section id="my-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="my-takeaways">My takeaways</h2>
+<p>To be added.</p>
 
 
 </section>
